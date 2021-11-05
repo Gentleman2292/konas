@@ -1,6 +1,5 @@
 # konas
-
-Gl dont care big coder
+Im retired Nigga I already ran the world U feel me Im Bill Clinton Fuckin All Deez Women
 
 # Backup link
 

@@ -6,13 +6,11 @@ import me.darki.konas.command.CommandManager;
 import me.darki.konas.config.Config;
 import me.darki.konas.config.ShutdownHook;
 import me.darki.konas.event.listener.*;
-import me.darki.konas.gui.altmanager.GuiAltManager;
 import me.darki.konas.gui.clickgui.ClickGUI;
 import me.darki.konas.gui.container.ContainerManager;
 import me.darki.konas.gui.kgui.KonasGuiScreen;
 import me.darki.konas.gui.kgui.element.container.MasterContainer;
 import me.darki.konas.module.ModuleManager;
-import me.darki.konas.module.modules.client.ClickGUIModule;
 import me.darki.konas.util.client.TickCalculation;
 import me.darki.konas.util.client.TickRateUtil;
 import me.darki.konas.util.interaction.RotationManager;
@@ -36,8 +34,6 @@ public class KonasGlobals {
     public ClickGUI clickGUI;
 
     public KonasGuiScreen konasGuiScreen;
-
-    public GuiAltManager altManager;
 
     public TargetManager targetManager;
 
@@ -71,7 +67,6 @@ public class KonasGlobals {
         }
 
         Config.migrate(Config.CONFIG_OLD, Config.CONFIG);
-        Config.migrate(Config.ACCOUNTS_OLD, Config.ACCOUNTS);
         Config.migrate(new File(Minecraft.getMinecraft().gameDir, "Fonts"), CustomFontRenderer.FONTS_FOLDER);
 
         if (new File(Minecraft.getMinecraft().gameDir, "Fonts").exists()) {
@@ -139,8 +134,6 @@ public class KonasGlobals {
 
         TickRateUtil.INSTANCE = new TickRateUtil();
 
-        altManager = new GuiAltManager(Minecraft.getMinecraft().currentScreen);
-        altManager.initializeGui();
 
         Config.load(Config.getLastModified(), true);
         Runtime.getRuntime().addShutdownHook(new ShutdownHook());

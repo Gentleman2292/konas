@@ -12,32 +12,11 @@ public class Requester {
 
     public static String toString(URL url) throws IOException {
         URLConnection conn = url.openConnection();
-        conn.setRequestProperty("User-Agent", "Darki-Bot/1.0.0");
+        conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36\"");
         BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
         StringBuilder result = new StringBuilder();
         in.lines().forEach(result::append);
         in.close();
         return result.toString();
     }
-
-    public static InputStream toInputStream(URL url) throws IOException {
-        URLConnection conn = url.openConnection();
-        conn.setRequestProperty("User-Agent", "Darki-Bot/1.0.0");
-        return conn.getInputStream();
-    }
-
-    @SafeVarargs
-    public static String toStringWithHeader(URL url, AbstractMap.SimpleEntry<String, String>... headers) throws IOException {
-        URLConnection conn = url.openConnection();
-        conn.setRequestProperty("User-Agent", "Darki-Bot/1.0.0");
-        for(AbstractMap.SimpleEntry<String, String> header : headers) {
-            conn.setRequestProperty(header.getKey(), header.getValue());
-        }
-        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
-        StringBuilder result = new StringBuilder();
-        in.lines().forEach(result::append);
-        in.close();
-        return result.toString();
-    }
-
 }

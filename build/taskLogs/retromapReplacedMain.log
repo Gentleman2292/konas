@@ -1,4 +1,4 @@
-Processing 883 files
+Processing 872 files
 Start Processing: com/viaversion/viafabric/ViaFabric.java
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[4220,4232]::getMinecraft->func_71410_x
 Rename field net/minecraft/client/Minecraft/gameDir[4235,4242]::gameDir->field_71412_D
@@ -897,24 +897,22 @@ Import: net.minecraft.util.math.MathHelper
 End  Processing: me/darki/konas/command/commands/YawCommand.java
 
 Start Processing: me/darki/konas/config/Config.java
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2079,2091]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/gameDir[2154,2161]::gameDir->field_71412_D
-Rename field net/minecraft/client/Minecraft/gameDir[2535,2542]::gameDir->field_71412_D
-Rename field net/minecraft/client/Minecraft/gameDir[2658,2665]::gameDir->field_71412_D
-Rename method net/minecraft/client/settings/GameSettings/getKeyDisplayString (I)Ljava/lang/String;[33403,33422]::getKeyDisplayString->func_74298_c
-Rename method net/minecraft/client/settings/GameSettings/getKeyDisplayString (I)Ljava/lang/String;[39190,39209]::getKeyDisplayString->func_74298_c
-Rename field net/minecraft/client/Minecraft/gameDir[45227,45234]::gameDir->field_71412_D
-Rename field net/minecraft/client/Minecraft/gameDir[45341,45348]::gameDir->field_71412_D
-Rename field net/minecraft/client/Minecraft/gameDir[45488,45495]::gameDir->field_71412_D
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[53018,53024]::format->func_135052_a
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[53085,53091]::format->func_135052_a
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[53154,53160]::format->func_135052_a
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[53536,53542]::format->func_135052_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1967,1979]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/gameDir[2042,2049]::gameDir->field_71412_D
+Rename field net/minecraft/client/Minecraft/gameDir[2339,2346]::gameDir->field_71412_D
+Rename field net/minecraft/client/Minecraft/gameDir[2462,2469]::gameDir->field_71412_D
+Rename method net/minecraft/client/settings/GameSettings/getKeyDisplayString (I)Ljava/lang/String;[29572,29591]::getKeyDisplayString->func_74298_c
+Rename method net/minecraft/client/settings/GameSettings/getKeyDisplayString (I)Ljava/lang/String;[35359,35378]::getKeyDisplayString->func_74298_c
+Rename field net/minecraft/client/Minecraft/gameDir[41396,41403]::gameDir->field_71412_D
+Rename field net/minecraft/client/Minecraft/gameDir[41510,41517]::gameDir->field_71412_D
+Rename field net/minecraft/client/Minecraft/gameDir[41657,41664]::gameDir->field_71412_D
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[49187,49193]::format->func_135052_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[49254,49260]::format->func_135052_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[49323,49329]::format->func_135052_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[49705,49711]::format->func_135052_a
 Import: com.google.gson.*
 Import: me.darki.konas.command.Command
 Import: me.darki.konas.command.commands.FontCommand
-Import: me.darki.konas.gui.altmanager.AltSummary
-Import: me.darki.konas.gui.altmanager.GuiListAltAccountEntry
 Import: me.darki.konas.gui.clickgui.component.ColorSettingComponent
 Import: me.darki.konas.gui.clickgui.component.ContainerComponent
 Import: me.darki.konas.gui.clickgui.component.ModuleComponent
@@ -1672,644 +1670,6 @@ Import: net.minecraft.client.gui.Gui
 Import: java.awt.*
 Import: java.util.ArrayList
 End  Processing: me/darki/konas/gui/TabGUI.java
-
-Start Processing: me/darki/konas/gui/altmanager/AltSummary.java
-FOUND CONSTR method me/darki/konas/gui/altmanager/AltSummary/AltSummary (Ljava/lang/String;Ljava/lang/String;ZZ)V me/darki/konas/gui/altmanager/AltSummary
-End  Processing: me/darki/konas/gui/altmanager/AltSummary.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiAddAccount.java
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiAddAccount/GuiAddAccount ()V me/darki/konas/gui/altmanager/GuiAddAccount
-Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[741,753]::updateScreen->func_73876_c
-Rename method net/minecraft/client/gui/GuiTextField/updateCursorCounter ()V[781,800]::updateCursorCounter->func_146178_a
-Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[889,896]::initGui->func_73866_w_
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[965,975]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1003,1013]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[1044,1049]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1075,1081]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1128,1138]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[1169,1174]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1200,1206]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1272,1282]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[1313,1318]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1344,1350]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1401,1411]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[1442,1447]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1473,1479]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1545,1555]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiButton/visible[1567,1574]::visible->field_146125_m
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1641,1653]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[1662,1667]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1826,1838]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[1847,1852]::width->field_146294_l
-Rename method net/minecraft/client/gui/GuiTextField/setFocused (Z)V[1911,1921]::setFocused->func_146195_b
-Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[1973,1984]::onGuiClosed->func_146281_b
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[2080,2095]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiButton/enabled[2134,2141]::enabled->field_146124_l
-Rename field net/minecraft/client/gui/GuiButton/id[2176,2178]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[2221,2223]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[2236,2252]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[2316,2318]::id->field_146127_k
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[2368,2375]::getText->func_146179_b
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[2608,2615]::getText->func_146179_b
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[2884,2891]::getText->func_146179_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[3364,3366]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[3379,3395]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[3459,3461]::id->field_146127_k
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3511,3518]::getText->func_146179_b
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[3752,3759]::getText->func_146179_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[4299,4301]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4314,4330]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[4413,4415]::id->field_146127_k
-New Key: class java/awt/Desktop
-Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[5023,5031]::keyTyped->func_73869_a
-Rename method net/minecraft/client/gui/GuiTextField/isFocused ()Z[5088,5097]::isFocused->func_146206_l
-Rename method net/minecraft/client/gui/GuiTextField/textboxKeyTyped (CI)Z[5134,5149]::textboxKeyTyped->func_146201_a
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[5258,5273]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[5277,5287]::buttonList->field_146292_n
-Rename method net/minecraft/client/gui/GuiTextField/setFocused (Z)V[5433,5443]::setFocused->func_146195_b
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[5674,5689]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[5693,5703]::buttonList->field_146292_n
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[5789,5801]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[5884,5896]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiTextField/mouseClicked (III)Z[5950,5962]::mouseClicked->func_146192_a
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[6105,6115]::drawScreen->func_73863_a
-Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[6183,6204]::drawDefaultBackground->func_146276_q_
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6215,6233]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[6233,6245]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[6269,6274]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6318,6328]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[6336,6348]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[6369,6374]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6424,6434]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[6442,6454]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[6475,6480]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[6554,6572]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[6572,6584]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[6642,6647]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[6667,6673]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[6749,6759]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiButton/visible[6771,6778]::visible->field_146125_m
-Rename method net/minecraft/client/gui/GuiTextField/drawTextBox ()V[6817,6828]::drawTextBox->func_146194_f
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[6891,6901]::drawScreen->func_73863_a
-Import: me.darki.konas.mixin.mixins.IGuiTextField
-Import: me.darki.konas.util.KonasGlobals
-Import: net.minecraft.client.gui.GuiButton
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.gui.GuiTextField
-Import: net.minecraft.util.text.TextFormatting
-Import: org.lwjgl.input.Keyboard
-Import: java.awt.*
-Import: java.io.IOException
-Import: java.net.URI
-Import: java.net.URISyntaxException
-End  Processing: me/darki/konas/gui/altmanager/GuiAddAccount.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiAltManager.java
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiAltManager/GuiAltManager (Lnet/minecraft/client/gui/GuiScreen;)V me/darki/konas/gui/altmanager/GuiAltManager
-Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[1061,1068]::initGui->func_73866_w_
-Rename field net/minecraft/client/gui/GuiScreen/mc[1088,1090]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1115,1127]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/gui/GuiScreen/mc[1227,1229]::mc->field_146297_k
-Rename field net/minecraft/client/gui/GuiScreen/width[1243,1248]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1259,1265]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/height[1284,1290]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/mc[1503,1505]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[1518,1528]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getProfile ()Lcom/mojang/authlib/GameProfile;[1534,1544]::getProfile->func_148256_e
-Rename method net/minecraft/client/gui/GuiSlot/setDimensions (IIII)V[1718,1731]::setDimensions->func_148122_a
-Rename field net/minecraft/client/gui/GuiScreen/width[1732,1737]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1748,1754]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/height[1773,1779]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiSlot/right[1818,1823]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiScreen/width[1842,1847]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/width[1859,1864]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiSlot/left[1907,1911]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiScreen/width[1931,1936]::width->field_146294_l
-Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[2162,2178]::handleMouseInput->func_146274_d
-Rename method net/minecraft/client/gui/GuiScreen/handleMouseInput ()V[2214,2230]::handleMouseInput->func_146274_d
-Rename method net/minecraft/client/gui/GuiSlot/handleMouseInput ()V[2254,2270]::handleMouseInput->func_178039_p
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2345,2354]::addButton->func_189646_b
-Rename field net/minecraft/client/gui/GuiScreen/width[2376,2381]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[2401,2407]::height->field_146295_m
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2508,2517]::addButton->func_189646_b
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2522,2531]::addButton->func_189646_b
-Rename field net/minecraft/client/gui/GuiScreen/width[2553,2558]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[2579,2585]::height->field_146295_m
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2677,2686]::addButton->func_189646_b
-Rename field net/minecraft/client/gui/GuiScreen/width[2708,2713]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[2734,2740]::height->field_146295_m
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2832,2841]::addButton->func_189646_b
-Rename field net/minecraft/client/gui/GuiScreen/width[2863,2868]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[2887,2893]::height->field_146295_m
-Rename method net/minecraft/client/gui/GuiScreen/addButton (Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;[2969,2978]::addButton->func_189646_b
-Rename field net/minecraft/client/gui/GuiScreen/width[3000,3005]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[3024,3030]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiButton/enabled[3086,3093]::enabled->field_146124_l
-Rename field net/minecraft/client/gui/GuiButton/enabled[3132,3139]::enabled->field_146124_l
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[3200,3215]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiButton/enabled[3254,3261]::enabled->field_146124_l
-Rename field net/minecraft/client/gui/GuiButton/id[3416,3418]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[3456,3458]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[3471,3487]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[3570,3572]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[3610,3612]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[3625,3641]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[3728,3730]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiButton/id[3952,3954]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiButton/id[4337,4339]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[4377,4379]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4392,4408]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[4694,4704]::drawScreen->func_73863_a
-Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[4762,4783]::drawDefaultBackground->func_146276_q_
-Rename method net/minecraft/client/gui/GuiSlot/drawScreen (IIF)V[4803,4813]::drawScreen->func_148128_a
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4857,4875]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[4870,4882]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4893,4898]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[5000,5010]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[5013,5015]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/fontRenderer[5028,5040]::fontRenderer->field_71466_p
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[5208,5218]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[5221,5223]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/fontRenderer[5236,5248]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/GuiScreen/mc[5372,5374]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/fontRenderer[5387,5399]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[5401,5412]::FONT_HEIGHT->field_78288_b
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[5458,5468]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[5471,5473]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/fontRenderer[5486,5498]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/GuiScreen/mc[5625,5627]::mc->field_146297_k
-Rename field net/minecraft/client/Minecraft/fontRenderer[5640,5652]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[5654,5665]::FONT_HEIGHT->field_78288_b
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[5728,5738]::drawScreen->func_73863_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[5816,5828]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[5906,5918]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiListExtended/mouseClicked (III)Z[5972,5984]::mouseClicked->func_148179_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseReleased (III)V[6060,6073]::mouseReleased->func_146286_b
-Rename method net/minecraft/client/gui/GuiScreen/mouseReleased (III)V[6126,6139]::mouseReleased->func_146286_b
-Rename method net/minecraft/client/gui/GuiListExtended/mouseReleased (III)Z[6187,6200]::mouseReleased->func_148181_b
-Rename field net/minecraft/client/gui/GuiButton/enabled[6367,6374]::enabled->field_146124_l
-Rename field net/minecraft/client/gui/GuiButton/enabled[6412,6419]::enabled->field_146124_l
-Import: me.darki.konas.util.KonasGlobals
-Import: me.darki.konas.util.client.LoginUtils
-Import: me.darki.konas.util.network.APIUtils
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.gui.GuiButton
-Import: net.minecraft.client.gui.GuiScreen
-Import: javax.annotation.Nullable
-Import: java.awt.*
-Import: java.io.IOException
-Import: java.util.LinkedHashSet
-End  Processing: me/darki/konas/gui/altmanager/GuiAltManager.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiDirectLogin.java
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiDirectLogin/GuiDirectLogin (Lme/darki/konas/gui/altmanager/GuiAltManager;)V me/darki/konas/gui/altmanager/GuiDirectLogin
-Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[623,635]::updateScreen->func_73876_c
-Rename method net/minecraft/client/gui/GuiTextField/updateCursorCounter ()V[663,682]::updateCursorCounter->func_146178_a
-Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[771,778]::initGui->func_73866_w_
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[847,857]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[885,895]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[926,931]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[957,963]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[1012,1022]::buttonList->field_146292_n
-Rename field net/minecraft/client/gui/GuiScreen/width[1053,1058]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[1084,1090]::height->field_146295_m
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1177,1189]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[1198,1203]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1296,1308]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[1317,1322]::width->field_146294_l
-Rename method net/minecraft/client/gui/GuiTextField/setFocused (Z)V[1381,1391]::setFocused->func_146195_b
-Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[1443,1454]::onGuiClosed->func_146281_b
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[1550,1565]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiButton/enabled[1604,1611]::enabled->field_146124_l
-Rename field net/minecraft/client/gui/GuiButton/id[1646,1648]::id->field_146127_k
-Rename field net/minecraft/client/gui/GuiScreen/mc[1691,1693]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[1706,1722]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[1764,1766]::id->field_146127_k
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[1816,1823]::getText->func_146179_b
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[2056,2063]::getText->func_146179_b
-Rename method net/minecraft/client/gui/GuiTextField/getText ()Ljava/lang/String;[2332,2339]::getText->func_146179_b
-Rename field net/minecraft/client/gui/GuiScreen/mc[2724,2726]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[2739,2755]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[2836,2844]::keyTyped->func_73869_a
-Rename method net/minecraft/client/gui/GuiTextField/isFocused ()Z[2901,2910]::isFocused->func_146206_l
-Rename method net/minecraft/client/gui/GuiTextField/textboxKeyTyped (CI)Z[2947,2962]::textboxKeyTyped->func_146201_a
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[3071,3086]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[3090,3100]::buttonList->field_146292_n
-Rename method net/minecraft/client/gui/GuiTextField/setFocused (Z)V[3246,3256]::setFocused->func_146195_b
-Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[3487,3502]::actionPerformed->func_146284_a
-Rename field net/minecraft/client/gui/GuiScreen/buttonList[3506,3516]::buttonList->field_146292_n
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[3602,3614]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[3697,3709]::mouseClicked->func_73864_a
-Rename method net/minecraft/client/gui/GuiTextField/mouseClicked (III)Z[3763,3775]::mouseClicked->func_146192_a
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[3918,3928]::drawScreen->func_73863_a
-Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[3996,4017]::drawDefaultBackground->func_146276_q_
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4028,4046]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[4046,4058]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4083,4088]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4132,4142]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[4150,4162]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4183,4188]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4238,4248]::drawString->func_73731_b
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[4256,4268]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4289,4294]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[4368,4386]::drawCenteredString->func_73732_a
-Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[4386,4398]::fontRenderer->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/width[4456,4461]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[4481,4487]::height->field_146295_m
-Rename method net/minecraft/client/gui/GuiTextField/drawTextBox ()V[4540,4551]::drawTextBox->func_146194_f
-Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[4614,4624]::drawScreen->func_73863_a
-Import: net.minecraft.client.gui.GuiButton
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.gui.GuiTextField
-Import: net.minecraft.util.text.TextFormatting
-Import: org.lwjgl.input.Keyboard
-Import: java.io.IOException
-End  Processing: me/darki/konas/gui/altmanager/GuiDirectLogin.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiListAltAccountEntry.java
-New Key: class net/minecraft/client/gui/GuiListExtended
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiListAltAccountEntry/GuiListAltAccountEntry (Lme/darki/konas/gui/altmanager/AltSummary;)V me/darki/konas/gui/altmanager/GuiListAltAccountEntry
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1740,1752]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/gui/GuiListExtended/IGuiListEntry/drawEntry (IIIIIIIZF)V[1896,1905]::drawEntry->func_192634_a
-Rename field net/minecraft/client/Minecraft/fontRenderer[2353,2365]::fontRenderer->field_71466_p
-Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[2367,2377]::drawString->func_78276_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2479,2491]::fontRenderer->field_71466_p
-Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[2493,2503]::drawString->func_78276_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2534,2546]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2548,2559]::FONT_HEIGHT->field_78288_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2598,2610]::fontRenderer->field_71466_p
-Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[2612,2622]::drawString->func_78276_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2653,2665]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2667,2678]::FONT_HEIGHT->field_78288_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2691,2703]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2705,2716]::FONT_HEIGHT->field_78288_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2773,2785]::fontRenderer->field_71466_p
-Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[2787,2797]::drawString->func_78276_b
-Rename field net/minecraft/client/Minecraft/fontRenderer[2828,2840]::fontRenderer->field_71466_p
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[2842,2853]::FONT_HEIGHT->field_78288_b
-Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[2906,2911]::color->func_179131_c
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3109,3126]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/getDynamicTextureLocation (Ljava/lang/String;Lnet/minecraft/client/renderer/texture/DynamicTexture;)Lnet/minecraft/util/ResourceLocation;[3125,3150]::getDynamicTextureLocation->func_110578_a
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3198,3215]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/loadTexture (Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/ITextureObject;)Z[3214,3225]::loadTexture->func_110579_a
-Rename method net/minecraft/client/renderer/texture/DynamicTexture/getTextureData ()[I[3330,3344]::getTextureData->func_110565_c
-Rename method net/minecraft/client/renderer/texture/DynamicTexture/updateDynamicTexture ()V[3395,3415]::updateDynamicTexture->func_110564_a
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3550,3567]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[3566,3577]::bindTexture->func_110577_a
-Rename method net/minecraft/client/renderer/GlStateManager/enableBlend ()V[3655,3666]::enableBlend->func_179147_l
-Rename method net/minecraft/client/gui/Gui/drawModalRectWithCustomSizedTexture (IIFFIIFF)V[3685,3720]::drawModalRectWithCustomSizedTexture->func_146110_a
-Rename method net/minecraft/client/renderer/GlStateManager/disableBlend ()V[3764,3776]::disableBlend->func_179084_k
-Rename method net/minecraft/client/gui/GuiListExtended/IGuiListEntry/mousePressed (IIIIII)Z[3825,3837]::mousePressed->func_148278_a
-Rename method net/minecraft/client/Minecraft/getSystemTime ()J[4155,4168]::getSystemTime->func_71386_F
-Rename method net/minecraft/client/Minecraft/getSystemTime ()J[4323,4336]::getSystemTime->func_71386_F
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4438,4454]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[4537,4549]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4552,4568]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4740,4756]::displayGuiScreen->func_147108_a
-Rename method net/minecraft/client/Minecraft/getSoundHandler ()Lnet/minecraft/client/audio/SoundHandler;[5358,5373]::getSoundHandler->func_147118_V
-Rename method net/minecraft/client/audio/SoundHandler/playSound (Lnet/minecraft/client/audio/ISound;)V[5374,5383]::playSound->func_147682_a
-Rename method net/minecraft/client/audio/PositionedSoundRecord/getMasterRecord (Lnet/minecraft/util/SoundEvent;F)Lnet/minecraft/client/audio/PositionedSoundRecord;[5410,5425]::getMasterRecord->func_184371_a
-Rename field net/minecraft/init/SoundEvents/UI_BUTTON_CLICK[5436,5451]::UI_BUTTON_CLICK->field_187909_gi
-Rename field net/minecraft/client/Minecraft/gameDir[5529,5536]::gameDir->field_71412_D
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5657,5669]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[6319,6331]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[7038,7050]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[7053,7063]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getUsername ()Ljava/lang/String;[7069,7080]::getUsername->func_111285_a
-Rename method net/minecraft/client/gui/GuiListExtended/IGuiListEntry/mouseReleased (IIIIII)V[7481,7494]::mouseReleased->func_148277_b
-Rename method net/minecraft/client/gui/GuiListExtended/IGuiListEntry/updatePosition (IIIF)V[7613,7627]::updatePosition->func_192633_a
-Import: me.darki.konas.mixin.mixins.IMinecraft
-Import: me.darki.konas.util.KonasGlobals
-Import: me.darki.konas.util.client.LoginUtils
-Import: me.darki.konas.util.network.APIUtils
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.audio.PositionedSoundRecord
-Import: net.minecraft.client.gui.Gui
-Import: net.minecraft.client.gui.GuiListExtended
-Import: net.minecraft.client.gui.GuiScreenWorking
-Import: net.minecraft.client.gui.GuiYesNo
-Import: net.minecraft.client.renderer.GlStateManager
-Import: net.minecraft.client.renderer.texture.DynamicTexture
-Import: net.minecraft.init.SoundEvents
-Import: net.minecraft.util.ResourceLocation
-Import: net.minecraft.util.Session
-Import: net.minecraft.util.text.TextFormatting
-Import: org.apache.commons.lang3.Validate
-Import: org.apache.logging.log4j.LogManager
-Import: org.apache.logging.log4j.Logger
-Import: javax.imageio.ImageIO
-Import: java.awt.image.BufferedImage
-Import: java.io.File
-End  Processing: me/darki/konas/gui/altmanager/GuiListAltAccountEntry.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiListAltAccounts.java
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiListAltAccounts/GuiListAltAccounts (Lme/darki/konas/gui/altmanager/GuiAltManager;Lnet/minecraft/client/Minecraft;IIIII)V me/darki/konas/gui/altmanager/GuiListAltAccounts
-Rename method net/minecraft/client/gui/GuiListExtended/getListEntry (I)Lnet/minecraft/client/gui/GuiListExtended$IGuiListEntry;[1690,1702]::getListEntry->func_148180_b
-Rename method net/minecraft/client/gui/GuiSlot/getSize ()I[1806,1813]::getSize->func_148127_b
-Rename method net/minecraft/client/gui/GuiSlot/getScrollBarX ()I[1909,1922]::getScrollBarX->func_148137_d
-Rename method net/minecraft/client/gui/GuiSlot/getScrollBarX ()I[1954,1967]::getScrollBarX->func_148137_d
-Rename method net/minecraft/client/gui/GuiSlot/drawScreen (IIF)V[2017,2027]::drawScreen->func_148128_a
-Rename field net/minecraft/client/gui/GuiSlot/visible[2099,2106]::visible->field_178041_q
-Rename field net/minecraft/client/gui/GuiSlot/mouseX[2144,2150]::mouseX->field_148150_g
-Rename field net/minecraft/client/gui/GuiSlot/mouseY[2189,2195]::mouseY->field_148162_h
-Rename method net/minecraft/client/gui/GuiSlot/drawBackground ()V[2234,2248]::drawBackground->func_148123_a
-Rename method net/minecraft/client/gui/GuiSlot/getScrollBarX ()I[2277,2290]::getScrollBarX->func_148137_d
-Rename method net/minecraft/client/gui/GuiSlot/bindAmountScrolled ()V[2340,2358]::bindAmountScrolled->func_148121_k
-Rename method net/minecraft/client/renderer/GlStateManager/disableLighting ()V[2385,2400]::disableLighting->func_179140_f
-Rename method net/minecraft/client/renderer/GlStateManager/disableFog ()V[2430,2440]::disableFog->func_179106_n
-Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[2498,2509]::getInstance->func_178181_a
-Rename method net/minecraft/client/renderer/Tessellator/getBuffer ()Lnet/minecraft/client/renderer/BufferBuilder;[2570,2579]::getBuffer->func_178180_c
-Rename field net/minecraft/client/gui/GuiSlot/left[2741,2745]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/width[2763,2768]::width->field_148155_a
-Rename method net/minecraft/client/gui/GuiSlot/getListWidth ()I[2789,2801]::getListWidth->func_148139_c
-Rename field net/minecraft/client/gui/GuiSlot/top[2840,2843]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/amountScrolled[2871,2885]::amountScrolled->field_148169_q
-Rename field net/minecraft/client/gui/GuiSlot/hasListHeader[2911,2924]::hasListHeader->field_148165_u
-Rename method net/minecraft/client/gui/GuiSlot/drawListHeader (IILnet/minecraft/client/renderer/Tessellator;)V[2964,2978]::drawListHeader->func_148129_a
-Rename field net/minecraft/client/gui/GuiSlot/left[3469,3473]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/right[3490,3495]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiSlot/top[3511,3514]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/top[3532,3535]::top->field_148153_b
-Rename method net/minecraft/client/gui/GuiSlot/drawSelectionBox (IIIIF)V[3587,3603]::drawSelectionBox->func_192638_a
-Rename method net/minecraft/client/renderer/GlStateManager/disableDepth ()V[3700,3712]::disableDepth->func_179097_i
-Rename method net/minecraft/client/gui/GuiSlot/overlayBackground (IIII)V[3735,3752]::overlayBackground->func_148136_c
-Rename field net/minecraft/client/gui/GuiSlot/top[3757,3760]::top->field_148153_b
-Rename method net/minecraft/client/gui/GuiSlot/overlayBackground (IIII)V[3802,3819]::overlayBackground->func_148136_c
-Rename field net/minecraft/client/gui/GuiSlot/bottom[3821,3827]::bottom->field_148154_c
-Rename field net/minecraft/client/gui/GuiSlot/height[3842,3848]::height->field_148158_l
-Rename method net/minecraft/client/renderer/GlStateManager/enableBlend ()V[3897,3908]::enableBlend->func_179147_l
-Rename method net/minecraft/client/renderer/GlStateManager/tryBlendFuncSeparate (Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;Lnet/minecraft/client/renderer/GlStateManager$DestFactor;Lnet/minecraft/client/renderer/GlStateManager$SourceFactor;Lnet/minecraft/client/renderer/GlStateManager$DestFactor;)V[3942,3962]::tryBlendFuncSeparate->func_187428_a
-New Key: class net/minecraft/client/renderer/GlStateManager
-New Key: class net/minecraft/client/renderer/GlStateManager
-New Key: class net/minecraft/client/renderer/GlStateManager
-New Key: class net/minecraft/client/renderer/GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/disableAlpha ()V[4136,4148]::disableAlpha->func_179118_c
-Rename method net/minecraft/client/renderer/GlStateManager/shadeModel (I)V[4181,4191]::shadeModel->func_179103_j
-Rename method net/minecraft/client/renderer/GlStateManager/disableTexture2D ()V[4230,4246]::disableTexture2D->func_179090_x
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[4274,4279]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[4312,4330]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4356,4359]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/left[4375,4379]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/top[4397,4400]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4424,4427]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[4450,4455]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4476,4485]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4520,4523]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/right[4539,4544]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiSlot/top[4561,4564]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4588,4591]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[4614,4619]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4640,4649]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4684,4687]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/right[4703,4708]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiSlot/top[4724,4727]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4746,4749]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[4772,4777]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4800,4809]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[4844,4847]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/left[4863,4867]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/top[4884,4887]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[4906,4909]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[4932,4937]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[4960,4969]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[5002,5006]::draw->func_78381_a
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[5045,5050]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[5083,5101]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[5127,5130]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/left[5146,5150]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5167,5173]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[5189,5192]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[5215,5220]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[5243,5252]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[5287,5290]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/right[5306,5311]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5327,5333]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[5349,5352]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[5375,5380]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[5403,5412]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[5447,5450]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/right[5466,5471]::right->field_148151_d
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5488,5494]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[5515,5518]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[5541,5546]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[5567,5576]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[5611,5614]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/left[5630,5634]::left->field_148152_e
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5652,5658]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[5679,5682]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[5705,5710]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[5731,5740]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[5773,5777]::draw->func_78381_a
-Rename method net/minecraft/client/gui/GuiSlot/getMaxScroll ()I[5816,5828]::getMaxScroll->func_148135_f
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5907,5913]::bottom->field_148154_c
-Rename field net/minecraft/client/gui/GuiSlot/top[5929,5932]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/bottom[5953,5959]::bottom->field_148154_c
-Rename field net/minecraft/client/gui/GuiSlot/top[5975,5978]::top->field_148153_b
-Rename method net/minecraft/client/gui/GuiSlot/getContentHeight ()I[5998,6014]::getContentHeight->func_148138_e
-Rename method net/minecraft/util/math/MathHelper/clamp (III)I[6048,6053]::clamp->func_76125_a
-Rename field net/minecraft/client/gui/GuiSlot/bottom[6074,6080]::bottom->field_148154_c
-Rename field net/minecraft/client/gui/GuiSlot/top[6096,6099]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/amountScrolled[6153,6167]::amountScrolled->field_148169_q
-Rename field net/minecraft/client/gui/GuiSlot/bottom[6176,6182]::bottom->field_148154_c
-Rename field net/minecraft/client/gui/GuiSlot/top[6198,6201]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/top[6231,6234]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/top[6280,6283]::top->field_148153_b
-Rename field net/minecraft/client/gui/GuiSlot/top[6346,6349]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[6414,6419]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[6452,6470]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6500,6503]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/bottom[6522,6528]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6544,6547]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[6570,6575]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6598,6607]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6646,6649]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/bottom[6668,6674]::bottom->field_148154_c
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6690,6693]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[6716,6721]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6744,6753]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6792,6795]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/top[6814,6817]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6836,6839]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[6862,6867]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[6890,6899]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[6938,6941]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiSlot/top[6960,6963]::top->field_148153_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[6982,6985]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7008,7013]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7036,7045]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[7082,7086]::draw->func_78381_a
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[7129,7134]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[7167,7185]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[7215,7218]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7249,7252]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7275,7280]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7309,7318]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[7357,7360]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7391,7394]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7417,7422]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7451,7460]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[7499,7502]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7526,7529]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7552,7557]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7586,7595]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[7634,7637]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7661,7664]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7687,7692]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7721,7730]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[7767,7771]::draw->func_78381_a
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[7814,7819]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[7852,7870]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[7900,7903]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[7938,7941]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[7964,7969]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[7998,8007]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[8046,8049]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[8090,8093]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[8116,8121]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[8150,8159]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[8198,8201]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[8231,8234]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[8257,8262]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[8291,8300]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[8339,8342]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[8366,8369]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[8392,8397]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[8426,8435]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[8472,8476]::draw->func_78381_a
-Rename method net/minecraft/client/gui/GuiSlot/renderDecorations (II)V[8523,8540]::renderDecorations->func_148142_b
-Rename method net/minecraft/client/renderer/GlStateManager/enableTexture2D ()V[8586,8601]::enableTexture2D->func_179098_w
-Rename method net/minecraft/client/renderer/GlStateManager/shadeModel (I)V[8631,8641]::shadeModel->func_179103_j
-Rename method net/minecraft/client/renderer/GlStateManager/enableAlpha ()V[8680,8691]::enableAlpha->func_179141_d
-Rename method net/minecraft/client/renderer/GlStateManager/disableBlend ()V[8725,8737]::disableBlend->func_179084_k
-Rename method net/minecraft/client/gui/GuiSlot/getListWidth ()I[8782,8794]::getListWidth->func_148139_c
-Rename method net/minecraft/client/gui/GuiSlot/getListWidth ()I[8827,8839]::getListWidth->func_148139_c
-Rename method net/minecraft/client/gui/GuiSlot/isSelected (I)Z[9055,9065]::isSelected->func_148131_a
-Rename method net/minecraft/client/gui/GuiSlot/getSize ()I[9290,9297]::getSize->func_148127_b
-Rename method net/minecraft/client/gui/GuiListExtended/getListEntry (I)Lnet/minecraft/client/gui/GuiListExtended$IGuiListEntry;[9313,9325]::getListEntry->func_148180_b
-Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[9690,9701]::getInstance->func_178181_a
-Rename method net/minecraft/client/renderer/Tessellator/getBuffer ()Lnet/minecraft/client/renderer/BufferBuilder;[9706,9715]::getBuffer->func_178180_c
-Rename field net/minecraft/client/gui/GuiSlot/mc[9732,9734]::mc->field_148161_k
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[9747,9764]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[9763,9774]::bindTexture->func_110577_a
-Rename field net/minecraft/client/gui/Gui/OPTIONS_BACKGROUND[9781,9799]::OPTIONS_BACKGROUND->field_110325_k
-Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[9822,9827]::color->func_179131_c
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[9903,9908]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX_COLOR[9941,9959]::POSITION_TEX_COLOR->field_181709_i
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[9974,9977]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[10008,10011]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[10050,10055]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[10081,10090]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[10114,10117]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[10149,10152]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[10192,10197]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[10223,10232]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[10256,10259]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[10288,10291]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[10328,10333]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[10359,10368]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[10392,10395]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/tex (DD)Lnet/minecraft/client/renderer/BufferBuilder;[10423,10426]::tex->func_187315_a
-Rename method net/minecraft/client/renderer/BufferBuilder/color (IIII)Lnet/minecraft/client/renderer/BufferBuilder;[10462,10467]::color->func_181669_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[10493,10502]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[10531,10542]::getInstance->func_178181_a
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[10547,10551]::draw->func_78381_a
-Import: me.darki.konas.util.KonasGlobals
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.gui.Gui
-Import: net.minecraft.client.gui.GuiListExtended
-Import: net.minecraft.client.renderer.BufferBuilder
-Import: net.minecraft.client.renderer.GlStateManager
-Import: net.minecraft.client.renderer.Tessellator
-Import: net.minecraft.client.renderer.vertex.DefaultVertexFormats
-Import: net.minecraft.util.math.MathHelper
-Import: org.apache.logging.log4j.LogManager
-Import: org.apache.logging.log4j.Logger
-Import: org.jetbrains.annotations.NotNull
-Import: javax.annotation.Nullable
-Import: java.util.ArrayList
-Import: java.util.Collections
-Import: java.util.List
-End  Processing: me/darki/konas/gui/altmanager/GuiListAltAccounts.java
-
-Start Processing: me/darki/konas/gui/altmanager/GuiPasswordField.java
-New Key: class net/minecraft/client/gui/GuiPageButtonList
-FOUND CONSTR method me/darki/konas/gui/altmanager/GuiPasswordField/GuiPasswordField (ILnet/minecraft/client/gui/FontRenderer;IIII)V me/darki/konas/gui/altmanager/GuiPasswordField
-New Key: class net/minecraft/client/gui/GuiPageButtonList
-Rename method net/minecraft/util/ChatAllowedCharacters/filterAllowedCharacters (Ljava/lang/String;)Ljava/lang/String;[4173,4196]::filterAllowedCharacters->func_71565_a
-Rename method net/minecraft/client/gui/GuiPageButtonList/GuiResponder/setEntryValue (ILjava/lang/String;)V[5437,5450]::setEntryValue->func_175319_a
-Rename method net/minecraft/util/math/MathHelper/clamp (III)I[9547,9552]::clamp->func_76125_a
-Rename method net/minecraft/client/gui/GuiScreen/isKeyComboCtrlA (I)Z[10286,10301]::isKeyComboCtrlA->func_175278_g
-Rename method net/minecraft/client/gui/GuiScreen/isKeyComboCtrlC (I)Z[10466,10481]::isKeyComboCtrlC->func_175280_f
-Rename method net/minecraft/client/gui/GuiScreen/setClipboardString (Ljava/lang/String;)V[10524,10542]::setClipboardString->func_146275_d
-Rename method net/minecraft/client/gui/GuiScreen/isKeyComboCtrlV (I)Z[10628,10643]::isKeyComboCtrlV->func_175279_e
-Rename method net/minecraft/client/gui/GuiScreen/getClipboardString ()Ljava/lang/String;[10753,10771]::getClipboardString->func_146277_j
-Rename method net/minecraft/client/gui/GuiScreen/isKeyComboCtrlX (I)Z[10853,10868]::isKeyComboCtrlX->func_175277_d
-Rename method net/minecraft/client/gui/GuiScreen/setClipboardString (Ljava/lang/String;)V[10911,10929]::setClipboardString->func_146275_d
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[11224,11237]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/client/gui/GuiScreen/isShiftKeyDown ()Z[11681,11695]::isShiftKeyDown->func_146272_n
-Rename method net/minecraft/client/gui/GuiScreen/isShiftKeyDown ()Z[12021,12035]::isShiftKeyDown->func_146272_n
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[12100,12113]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[12500,12513]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/client/gui/GuiScreen/isShiftKeyDown ()Z[12863,12877]::isShiftKeyDown->func_146272_n
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[12942,12955]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[13341,13354]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/client/gui/GuiScreen/isShiftKeyDown ()Z[13702,13716]::isShiftKeyDown->func_146272_n
-Rename method net/minecraft/client/gui/GuiScreen/isCtrlKeyDown ()Z[14058,14071]::isCtrlKeyDown->func_146271_m
-Rename method net/minecraft/util/ChatAllowedCharacters/isAllowedCharacter (C)Z[14524,14542]::isAllowedCharacter->func_71566_a
-Rename method net/minecraft/client/gui/FontRenderer/trimStringToWidth (Ljava/lang/String;I)Ljava/lang/String;[15624,15641]::trimStringToWidth->func_78269_a
-Rename method net/minecraft/client/gui/FontRenderer/trimStringToWidth (Ljava/lang/String;I)Ljava/lang/String;[15753,15770]::trimStringToWidth->func_78269_a
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[16125,16133]::drawRect->func_73734_a
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[16241,16249]::drawRect->func_73734_a
-Rename method net/minecraft/client/gui/FontRenderer/trimStringToWidth (Ljava/lang/String;I)Ljava/lang/String;[16592,16609]::trimStringToWidth->func_78269_a
-Rename method net/minecraft/client/gui/FontRenderer/drawStringWithShadow (Ljava/lang/String;FFI)I[17247,17267]::drawStringWithShadow->func_175063_a
-Rename method net/minecraft/client/gui/FontRenderer/drawStringWithShadow (Ljava/lang/String;FFI)I[17808,17828]::drawStringWithShadow->func_175063_a
-Rename method net/minecraft/client/gui/Gui/drawRect (IIIII)V[18013,18021]::drawRect->func_73734_a
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[18073,18084]::FONT_HEIGHT->field_78288_b
-Rename method net/minecraft/client/gui/FontRenderer/drawStringWithShadow (Ljava/lang/String;FFI)I[18198,18218]::drawStringWithShadow->func_175063_a
-Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[18367,18381]::getStringWidth->func_78256_a
-Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[18507,18518]::FONT_HEIGHT->field_78288_b
-Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[19227,19238]::getInstance->func_178181_a
-Rename method net/minecraft/client/renderer/Tessellator/getBuffer ()Lnet/minecraft/client/renderer/BufferBuilder;[19295,19304]::getBuffer->func_178180_c
-Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[19336,19341]::color->func_179131_c
-Rename method net/minecraft/client/renderer/GlStateManager/disableTexture2D ()V[19403,19419]::disableTexture2D->func_179090_x
-Rename method net/minecraft/client/renderer/GlStateManager/enableColorLogic ()V[19444,19460]::enableColorLogic->func_179115_u
-Rename method net/minecraft/client/renderer/GlStateManager/colorLogicOp (Lnet/minecraft/client/renderer/GlStateManager$LogicOp;)V[19485,19497]::colorLogicOp->func_187422_a
-New Key: class net/minecraft/client/renderer/GlStateManager
-Rename method net/minecraft/client/renderer/BufferBuilder/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[19558,19563]::begin->func_181668_a
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION[19596,19604]::POSITION->field_181705_e
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[19636,19639]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[19686,19695]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[19726,19729]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[19774,19783]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[19814,19817]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[19864,19873]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/BufferBuilder/pos (DDD)Lnet/minecraft/client/renderer/BufferBuilder;[19904,19907]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/BufferBuilder/endVertex ()V[19956,19965]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[19994,19998]::draw->func_78381_a
-Rename method net/minecraft/client/renderer/GlStateManager/disableColorLogic ()V[20034,20051]::disableColorLogic->func_179134_v
-Rename method net/minecraft/client/renderer/GlStateManager/enableTexture2D ()V[20075,20090]::enableTexture2D->func_179098_w
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[22069,22081]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/currentScreen[22084,22097]::currentScreen->field_71462_r
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[22141,22153]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/currentScreen[22156,22169]::currentScreen->field_71462_r
-Rename method net/minecraft/client/gui/GuiScreen/setFocused (Z)V[22170,22180]::setFocused->func_193975_a
-Rename method net/minecraft/client/gui/FontRenderer/trimStringToWidth (Ljava/lang/String;I)Ljava/lang/String;[23759,23776]::trimStringToWidth->func_78269_a
-Rename method net/minecraft/client/gui/FontRenderer/trimStringToWidth (Ljava/lang/String;IZ)Ljava/lang/String;[24006,24023]::trimStringToWidth->func_78262_a
-Rename method net/minecraft/util/math/MathHelper/clamp (III)I[24396,24401]::clamp->func_76125_a
-Import: com.google.common.base.Predicate
-Import: com.google.common.base.Predicates
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.gui.FontRenderer
-Import: net.minecraft.client.gui.Gui
-Import: net.minecraft.client.gui.GuiPageButtonList
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.renderer.BufferBuilder
-Import: net.minecraft.client.renderer.GlStateManager
-Import: net.minecraft.client.renderer.Tessellator
-Import: net.minecraft.client.renderer.vertex.DefaultVertexFormats
-Import: net.minecraft.util.ChatAllowedCharacters
-Import: net.minecraft.util.math.MathHelper
-End  Processing: me/darki/konas/gui/altmanager/GuiPasswordField.java
 
 Start Processing: me/darki/konas/gui/beacon/CustomGuiBeacon.java
 Rename field net/minecraft/init/MobEffects/SPEED[1090,1095]::SPEED->field_76424_c
@@ -4580,40 +3940,6 @@ Import: org.spongepowered.asm.mixin.injection.Redirect
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 End  Processing: me/darki/konas/mixin/mixins/MixinGuiIngame.java
 
-Start Processing: me/darki/konas/mixin/mixins/MixinGuiMainMenu.java
-Rename field net/minecraft/client/gui/GuiButton/id[1036,1038]::id->field_146127_k
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1149,1161]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[1164,1180]::displayGuiScreen->func_147108_a
-Rename field net/minecraft/client/gui/GuiButton/id[1240,1242]::id->field_146127_k
-New Key: class java/awt/Desktop
-Rename field net/minecraft/client/gui/GuiScreen/width[2022,2027]::width->field_146294_l
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[2073,2079]::format->func_135052_a
-Rename field net/minecraft/client/gui/GuiScreen/width[2208,2213]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/width[2360,2365]::width->field_146294_l
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[2424,2430]::format->func_135052_a
-Rename field net/minecraft/client/gui/GuiScreen/width[2557,2562]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/width[2742,2747]::width->field_146294_l
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[2808,2814]::format->func_135052_a
-Rename field net/minecraft/client/gui/GuiScreen/width[2977,2982]::width->field_146294_l
-Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[3045,3051]::format->func_135052_a
-Import: me.darki.konas.util.KonasGlobals
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.gui.GuiButton
-Import: net.minecraft.client.gui.GuiMainMenu
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.resources.I18n
-Import: org.spongepowered.asm.mixin.Mixin
-Import: org.spongepowered.asm.mixin.Shadow
-Import: org.spongepowered.asm.mixin.injection.At
-Import: org.spongepowered.asm.mixin.injection.Inject
-Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
-Import: java.awt.*
-Import: java.io.IOException
-Import: java.net.URI
-Import: java.net.URISyntaxException
-Import: java.util.List
-End  Processing: me/darki/konas/mixin/mixins/MixinGuiMainMenu.java
-
 Start Processing: me/darki/konas/mixin/mixins/MixinGuiMultiplayer.java
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[927,939]::getMinecraft->func_71410_x
 Rename field net/minecraft/client/Minecraft/gameDir[942,949]::gameDir->field_71412_D
@@ -4796,8 +4122,9 @@ Start Processing: me/darki/konas/mixin/mixins/MixinMinecraft.java
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1377,1389]::getMinecraft->func_71410_x
 Rename field net/minecraft/client/Minecraft/gameDir[1392,1399]::gameDir->field_71412_D
 Rename method net/minecraft/entity/EntityLivingBase/isHandActive ()Z[1871,1883]::isHandActive->func_184587_cr
-Rename method net/minecraft/client/multiplayer/PlayerControllerMP/getIsHittingBlock ()Z[3380,3397]::getIsHittingBlock->func_181040_m
-Rename method net/minecraft/client/multiplayer/PlayerControllerMP/resetBlockRemoving ()V[3916,3934]::resetBlockRemoving->func_78767_c
+Rename method net/minecraft/client/gui/toasts/GuiToast/drawToast (Lnet/minecraft/client/gui/ScaledResolution;)V[2629,2638]::drawToast->func_191783_a
+Rename method net/minecraft/client/multiplayer/PlayerControllerMP/getIsHittingBlock ()Z[3828,3845]::getIsHittingBlock->func_181040_m
+Rename method net/minecraft/client/multiplayer/PlayerControllerMP/resetBlockRemoving ()V[4364,4382]::resetBlockRemoving->func_78767_c
 Import: com.viaversion.viafabric.ViaFabric
 Import: cookiedragon.eventsystem.EventDispatcher
 Import: me.darki.konas.event.events.BlockResetEvent
@@ -5118,28 +4445,17 @@ Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 End  Processing: me/darki/konas/mixin/mixins/MixinRenderLivingBase.java
 
 Start Processing: me/darki/konas/mixin/mixins/MixinRenderManager.java
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1042,1054]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/currentScreen[1057,1070]::currentScreen->field_71462_r
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1145,1157]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[1160,1170]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getProfile ()Lcom/mojang/authlib/GameProfile;[1176,1186]::getProfile->func_148256_e
-Rename method net/minecraft/client/entity/AbstractClientPlayer/getSkinType ()Ljava/lang/String;[1282,1293]::getSkinType->func_175154_l
 New Key: class me/darki/konas/event/events/RenderEntityEvent
 New Key: class me/darki/konas/event/events/RenderEntityEvent
 New Key: class me/darki/konas/event/events/RenderEntityEvent
 New Key: class me/darki/konas/event/events/RenderEntityEvent
 Import: cookiedragon.eventsystem.EventDispatcher
 Import: me.darki.konas.event.events.RenderEntityEvent
-Import: me.darki.konas.gui.altmanager.GuiAltManager
-Import: me.darki.konas.util.network.APIUtils
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.entity.AbstractClientPlayer
 Import: net.minecraft.client.renderer.entity.RenderManager
 Import: net.minecraft.entity.Entity
 Import: org.spongepowered.asm.mixin.Mixin
 Import: org.spongepowered.asm.mixin.injection.At
 Import: org.spongepowered.asm.mixin.injection.Inject
-Import: org.spongepowered.asm.mixin.injection.Redirect
 Import: org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 End  Processing: me/darki/konas/mixin/mixins/MixinRenderManager.java
 
@@ -13219,38 +12535,40 @@ Adding 1 imports
 End  Processing: me/darki/konas/module/modules/misc/ChatAppend.java
 
 Start Processing: me/darki/konas/module/modules/misc/ExtraChat.java
-FOUND CONSTR method me/darki/konas/module/modules/misc/ExtraChat/ExtraChat ()V me/darki/konas/module/modules/misc/ExtraChat
-Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[4418,4436]::getUnformattedText->func_150260_c
-Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[4489,4507]::getUnformattedText->func_150260_c
 New Key: class java/util/Map
-Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[4652,4670]::getUnformattedText->func_150260_c
-Rename field net/minecraft/client/Minecraft/player[4781,4787]::player->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[4795,4810]::sendChatMessage->func_71165_d
-Rename method net/minecraft/util/text/ITextComponent/appendSibling (Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;[5961,5974]::appendSibling->func_150257_a
-Rename method net/minecraft/entity/Entity/getUniqueID ()Ljava/util/UUID;[6214,6225]::getUniqueID->func_110124_au
-Rename field net/minecraft/client/Minecraft/player[6241,6247]::player->field_71439_g
-Rename method net/minecraft/entity/Entity/getUniqueID ()Ljava/util/UUID;[6255,6266]::getUniqueID->func_110124_au
-Rename field net/minecraft/client/Minecraft/player[6338,6344]::player->field_71439_g
-Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[6352,6363]::getPosition->func_180425_c
-Rename method net/minecraft/util/math/Vec3i/getX ()I[6368,6372]::getX->func_177958_n
-Rename field net/minecraft/client/Minecraft/player[6397,6403]::player->field_71439_g
-Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[6411,6422]::getPosition->func_180425_c
-Rename method net/minecraft/util/math/Vec3i/getY ()I[6427,6431]::getY->func_177956_o
-Rename field net/minecraft/client/Minecraft/player[6456,6462]::player->field_71439_g
-Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[6470,6481]::getPosition->func_180425_c
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[6486,6490]::getZ->func_177952_p
-Rename field net/minecraft/client/Minecraft/player[6521,6527]::player->field_71439_g
-Rename field net/minecraft/entity/Entity/dimension[6535,6544]::dimension->field_71093_bK
-Rename field net/minecraft/client/Minecraft/player[6665,6671]::player->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[6679,6694]::sendChatMessage->func_71165_d
-Rename field net/minecraft/client/Minecraft/player[7439,7445]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/world[7467,7472]::world->field_71441_e
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[7785,7792]::getName->func_70005_c_
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[7892,7899]::getName->func_70005_c_
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[7981,7988]::getName->func_70005_c_
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8386,8393]::getName->func_70005_c_
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8493,8500]::getName->func_70005_c_
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8582,8589]::getName->func_70005_c_
+New Key: class java/util/AbstractMap
+FOUND CONSTR method me/darki/konas/module/modules/misc/ExtraChat/ExtraChat ()V me/darki/konas/module/modules/misc/ExtraChat
+Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[5196,5214]::getUnformattedText->func_150260_c
+Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[5267,5285]::getUnformattedText->func_150260_c
+New Key: class java/util/Map
+Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[5425,5443]::getUnformattedText->func_150260_c
+Rename field net/minecraft/client/Minecraft/player[5554,5560]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[5568,5583]::sendChatMessage->func_71165_d
+Rename method net/minecraft/util/text/ITextComponent/appendSibling (Lnet/minecraft/util/text/ITextComponent;)Lnet/minecraft/util/text/ITextComponent;[6734,6747]::appendSibling->func_150257_a
+Rename method net/minecraft/entity/Entity/getUniqueID ()Ljava/util/UUID;[6987,6998]::getUniqueID->func_110124_au
+Rename field net/minecraft/client/Minecraft/player[7014,7020]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/getUniqueID ()Ljava/util/UUID;[7028,7039]::getUniqueID->func_110124_au
+Rename field net/minecraft/client/Minecraft/player[7111,7117]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[7125,7136]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[7141,7145]::getX->func_177958_n
+Rename field net/minecraft/client/Minecraft/player[7170,7176]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[7184,7195]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[7200,7204]::getY->func_177956_o
+Rename field net/minecraft/client/Minecraft/player[7229,7235]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[7243,7254]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[7259,7263]::getZ->func_177952_p
+Rename field net/minecraft/client/Minecraft/player[7294,7300]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/dimension[7308,7317]::dimension->field_71093_bK
+Rename field net/minecraft/client/Minecraft/player[7438,7444]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[7452,7467]::sendChatMessage->func_71165_d
+Rename field net/minecraft/client/Minecraft/player[8212,8218]::player->field_71439_g
+Rename field net/minecraft/client/Minecraft/world[8240,8245]::world->field_71441_e
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8558,8565]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8665,8672]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[8754,8761]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[9159,9166]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[9266,9273]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[9355,9362]::getName->func_70005_c_
 FOUND CONSTR method me/darki/konas/module/modules/misc/ExtraChat/PartyMessage/PartyMessage (Ljava/lang/String;Ljava/lang/String;)V me/darki/konas/module/modules/misc/ExtraChat/PartyMessage
 Import: com.mojang.realmsclient.gui.ChatFormatting
 Import: com.sun.org.apache.xpath.internal.operations.Bool
@@ -13270,6 +12588,8 @@ Import: net.minecraft.util.text.TextComponentString
 Import: net.minecraftforge.client.event.ClientChatReceivedEvent
 Import: java.text.SimpleDateFormat
 Import: java.util.*
+Import: java.util.regex.Matcher
+Import: java.util.regex.Pattern
 Adding 1 imports
         me.darki.konas.module.Module.Category
 End  Processing: me/darki/konas/module/modules/misc/ExtraChat.java
@@ -13383,61 +12703,6 @@ Import: java.util.Objects
 Adding 1 imports
         me.darki.konas.module.Module.Category
 End  Processing: me/darki/konas/module/modules/misc/HoleBreakAlert.java
-
-Start Processing: me/darki/konas/module/modules/misc/KonasChat.java
-FOUND CONSTR method me/darki/konas/module/modules/misc/KonasChat/KonasChat ()V me/darki/konas/module/modules/misc/KonasChat
-Rename field net/minecraft/client/Minecraft/player[3292,3298]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/world[3320,3325]::world->field_71441_e
-Rename field net/minecraft/client/Minecraft/ingameGUI[3594,3603]::ingameGUI->field_71456_v
-Rename method net/minecraft/client/gui/GuiIngame/getChatGUI ()Lnet/minecraft/client/gui/GuiNewChat;[3608,3618]::getChatGUI->func_146158_b
-New Key: class java/util/Map
-Rename method net/minecraft/client/gui/ChatLine/getChatComponent ()Lnet/minecraft/util/text/ITextComponent;[3917,3933]::getChatComponent->func_151461_a
-Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[3933,3951]::getUnformattedText->func_150260_c
-New Key: class me/darki/konas/util/Logger
-Rename method net/minecraft/client/gui/ChatLine/getChatComponent ()Lnet/minecraft/util/text/ITextComponent;[4128,4144]::getChatComponent->func_151461_a
-Rename method net/minecraft/util/text/ITextComponent/getFormattedText ()Ljava/lang/String;[4144,4160]::getFormattedText->func_150254_d
-Rename field net/minecraft/client/Minecraft/ingameGUI[4343,4352]::ingameGUI->field_71456_v
-Rename method net/minecraft/client/gui/GuiIngame/getChatGUI ()Lnet/minecraft/client/gui/GuiNewChat;[4357,4367]::getChatGUI->func_146158_b
-New Key: class me/darki/konas/event/events/PacketEvent
-New Key: class java/util/Map
-Rename method net/minecraft/network/play/server/SPacketChat/getChatComponent ()Lnet/minecraft/util/text/ITextComponent;[5330,5346]::getChatComponent->func_148915_c
-Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[5346,5364]::getUnformattedText->func_150260_c
-New Key: class java/util/Map
-New Key: class me/darki/konas/util/Logger
-Rename field net/minecraft/client/Minecraft/player[6803,6809]::player->field_71439_g
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[6817,6824]::getName->func_70005_c_
-New Key: class java/util/Map
-New Key: class java/util/AbstractMap
-FOUND CONSTR method me/darki/konas/module/modules/misc/KonasChat/Listener/Listener (Ljava/net/Socket;Ljava/io/DataInputStream;)V me/darki/konas/module/modules/misc/KonasChat/Listener
-Import: cookiedragon.eventsystem.Subscriber
-Import: me.darki.konas.command.Command
-Import: me.darki.konas.event.events.PacketEvent
-Import: me.darki.konas.event.events.UpdateEvent
-Import: me.darki.konas.mixin.mixins.IChatLine
-Import: me.darki.konas.mixin.mixins.IGuiNewChat
-Import: me.darki.konas.mixin.mixins.ISPacketChat
-Import: me.darki.konas.module.Module
-Import: me.darki.konas.module.ModuleManager
-Import: me.darki.konas.setting.ListenableSettingDecorator
-Import: me.darki.konas.setting.Setting
-Import: me.darki.konas.util.Logger
-Import: me.darki.konas.util.client.LoginUtils
-Import: me.darki.konas.util.network.APIUtils
-Import: me.darki.konas.util.timer.Timer
-Import: net.minecraft.client.gui.ChatLine
-Import: net.minecraft.network.play.server.SPacketChat
-Import: net.minecraftforge.client.event.ClientChatEvent
-Import: java.io.DataInputStream
-Import: java.io.DataOutputStream
-Import: java.io.IOException
-Import: java.net.Socket
-Import: java.util.*
-Import: java.util.concurrent.ConcurrentHashMap
-Import: java.util.regex.Matcher
-Import: java.util.regex.Pattern
-Adding 1 imports
-        me.darki.konas.module.Module.Category
-End  Processing: me/darki/konas/module/modules/misc/KonasChat.java
 
 Start Processing: me/darki/konas/module/modules/misc/MiddleClick.java
 FOUND CONSTR method me/darki/konas/module/modules/misc/MiddleClick/MiddleClick ()V me/darki/konas/module/modules/misc/MiddleClick
@@ -18708,29 +17973,6 @@ Adding 1 imports
         me.darki.konas.module.Module.Category
 End  Processing: me/darki/konas/module/modules/render/CameraClip.java
 
-Start Processing: me/darki/konas/module/modules/render/Capes.java
-FOUND CONSTR method me/darki/konas/module/modules/render/Capes/Capes ()V me/darki/konas/module/modules/render/Capes
-Rename field net/minecraft/client/Minecraft/player[897,903]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/world[925,930]::world->field_71441_e
-Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1166,1182]::addScheduledTask->func_152344_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1330,1342]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1345,1362]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/getDynamicTextureLocation (Ljava/lang/String;Lnet/minecraft/client/renderer/texture/DynamicTexture;)Lnet/minecraft/util/ResourceLocation;[1361,1386]::getDynamicTextureLocation->func_110578_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1481,1493]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1496,1513]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/loadTexture (Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/ITextureObject;)Z[1512,1523]::loadTexture->func_110579_a
-Import: cookiedragon.eventsystem.Subscriber
-Import: me.darki.konas.event.events.LocateCapeEvent
-Import: me.darki.konas.module.Module
-Import: me.darki.konas.util.network.APIUtils
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.renderer.texture.DynamicTexture
-Import: net.minecraft.util.ResourceLocation
-Import: java.util.HashMap
-Adding 1 imports
-        me.darki.konas.module.Module.Category
-End  Processing: me/darki/konas/module/modules/render/Capes.java
-
 Start Processing: me/darki/konas/module/modules/render/Chams.java
 FOUND CONSTR method me/darki/konas/module/modules/render/Chams/Chams ()V me/darki/konas/module/modules/render/Chams
 Rename field net/minecraft/client/Minecraft/gameSettings[7306,7318]::gameSettings->field_71474_y
@@ -20461,35 +19703,35 @@ Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_HURT[979,994]::ENTITY_BAT
 Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_LOOP[1020,1035]::ENTITY_BAT_LOOP->field_189108_z
 Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_TAKEOFF[1061,1079]::ENTITY_BAT_TAKEOFF->field_187744_z
 FOUND CONSTR method me/darki/konas/module/modules/render/NoRender/NoRender ()V me/darki/konas/module/modules/render/NoRender
-Rename field net/minecraft/client/Minecraft/player[3969,3975]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/world[3997,4002]::world->field_71441_e
-Rename field net/minecraft/client/Minecraft/world[4038,4043]::world->field_71441_e
-Rename method net/minecraft/world/World/getLoadedEntityList ()Ljava/util/List;[4052,4071]::getLoadedEntityList->func_72910_y
-Rename field net/minecraft/client/Minecraft/world[4143,4148]::world->field_71441_e
-Rename method net/minecraft/world/World/removeEntity (Lnet/minecraft/entity/Entity;)V[4157,4169]::removeEntity->func_72900_e
+Rename field net/minecraft/client/Minecraft/player[4052,4058]::player->field_71439_g
+Rename field net/minecraft/client/Minecraft/world[4080,4085]::world->field_71441_e
+Rename field net/minecraft/client/Minecraft/world[4121,4126]::world->field_71441_e
+Rename method net/minecraft/world/World/getLoadedEntityList ()Ljava/util/List;[4135,4154]::getLoadedEntityList->func_72910_y
+Rename field net/minecraft/client/Minecraft/world[4226,4231]::world->field_71441_e
+Rename method net/minecraft/world/World/removeEntity (Lnet/minecraft/entity/Entity;)V[4240,4252]::removeEntity->func_72900_e
 New Key: class net/minecraft/client/particle/ParticleFirework
 New Key: class net/minecraft/client/particle/ParticleFirework
 New Key: class net/minecraft/client/particle/ParticleFirework
 New Key: class me/darki/konas/event/events/PacketEvent
-Rename method net/minecraft/network/play/server/SPacketSpawnGlobalEntity/getType ()I[5736,5743]::getType->func_149053_g
-Rename method net/minecraft/network/play/server/SPacketSpawnMob/getEntityType ()I[6076,6089]::getEntityType->func_149025_e
-Rename method net/minecraft/network/play/server/SPacketSoundEffect/getSound ()Lnet/minecraft/util/SoundEvent;[6230,6238]::getSound->func_186978_a
-Rename method net/minecraft/network/play/server/SPacketSpawnObject/getType ()I[6778,6785]::getType->func_148993_l
-Rename method net/minecraft/network/play/server/SPacketSpawnObject/getType ()I[6937,6944]::getType->func_148993_l
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[7843,7854]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/LAVA[7875,7879]::LAVA->field_151587_i
+Rename method net/minecraft/network/play/server/SPacketSpawnGlobalEntity/getType ()I[5819,5826]::getType->func_149053_g
+Rename method net/minecraft/network/play/server/SPacketSpawnMob/getEntityType ()I[6159,6172]::getEntityType->func_149025_e
+Rename method net/minecraft/network/play/server/SPacketSoundEffect/getSound ()Lnet/minecraft/util/SoundEvent;[6313,6321]::getSound->func_186978_a
+Rename method net/minecraft/network/play/server/SPacketSpawnObject/getType ()I[6861,6868]::getType->func_148993_l
+Rename method net/minecraft/network/play/server/SPacketSpawnObject/getType ()I[7020,7027]::getType->func_148993_l
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[7926,7937]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/LAVA[7958,7962]::LAVA->field_151587_i
 New Key: class net/minecraft/entity/player/EntityPlayer
-Rename field net/minecraft/client/Minecraft/world[8990,8995]::world->field_71441_e
-Rename field net/minecraft/client/Minecraft/player[9018,9024]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/gameSettings[9149,9161]::gameSettings->field_71474_y
-Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9163,9177]::chatVisibility->field_74343_n
-Rename field net/minecraft/client/Minecraft/gameSettings[9209,9221]::gameSettings->field_71474_y
-Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9223,9237]::chatVisibility->field_74343_n
+Rename field net/minecraft/client/Minecraft/world[9073,9078]::world->field_71441_e
+Rename field net/minecraft/client/Minecraft/player[9101,9107]::player->field_71439_g
+Rename field net/minecraft/client/Minecraft/gameSettings[9232,9244]::gameSettings->field_71474_y
+Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9246,9260]::chatVisibility->field_74343_n
+Rename field net/minecraft/client/Minecraft/gameSettings[9292,9304]::gameSettings->field_71474_y
+Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9306,9320]::chatVisibility->field_74343_n
 New Key: class net/minecraft/entity/player/EntityPlayer
-Rename field net/minecraft/client/Minecraft/gameSettings[9334,9346]::gameSettings->field_71474_y
-Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9348,9362]::chatVisibility->field_74343_n
-Rename field net/minecraft/client/Minecraft/world[9482,9487]::world->field_71441_e
-Rename field net/minecraft/client/Minecraft/world[9606,9611]::world->field_71441_e
+Rename field net/minecraft/client/Minecraft/gameSettings[9417,9429]::gameSettings->field_71474_y
+Rename field net/minecraft/client/settings/GameSettings/chatVisibility[9431,9445]::chatVisibility->field_74343_n
+Rename field net/minecraft/client/Minecraft/world[9565,9570]::world->field_71441_e
+Rename field net/minecraft/client/Minecraft/world[9689,9694]::world->field_71441_e
 Import: com.google.common.collect.Sets
 Import: cookiedragon.eventsystem.Subscriber
 Import: me.darki.konas.event.events.*
@@ -20592,74 +19834,6 @@ Import: me.darki.konas.module.Module
 Adding 1 imports
         me.darki.konas.module.Module.Category
 End  Processing: me/darki/konas/module/modules/render/PacketRender.java
-
-Start Processing: me/darki/konas/module/modules/render/SantaESP.java
-FOUND CONSTR method me/darki/konas/module/modules/render/SantaESP/SantaESP ()V me/darki/konas/module/modules/render/SantaESP
-Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1052,1068]::addScheduledTask->func_152344_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1251,1263]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1266,1283]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/getDynamicTextureLocation (Ljava/lang/String;Lnet/minecraft/client/renderer/texture/DynamicTexture;)Lnet/minecraft/util/ResourceLocation;[1282,1307]::getDynamicTextureLocation->func_110578_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1385,1397]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1400,1417]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/loadTexture (Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/client/renderer/texture/ITextureObject;)Z[1416,1427]::loadTexture->func_110579_a
-Rename field net/minecraft/client/Minecraft/player[1588,1594]::player->field_71439_g
-Rename field net/minecraft/client/Minecraft/world[1616,1621]::world->field_71441_e
-Rename method net/minecraft/client/Minecraft/getRenderViewEntity ()Lnet/minecraft/entity/Entity;[1659,1678]::getRenderViewEntity->func_175606_aa
-Rename field net/minecraft/client/Minecraft/world[1728,1733]::world->field_71441_e
-Rename field net/minecraft/world/World/loadedEntityList[1742,1758]::loadedEntityList->field_72996_f
-Rename field net/minecraft/client/Minecraft/player[1789,1795]::player->field_71439_g
-Rename field net/minecraft/entity/Entity/isDead[1900,1906]::isDead->field_70128_L
-Rename method net/minecraft/client/renderer/culling/ICamera/setPosition (DDD)V[1945,1956]::setPosition->func_78547_a
-Rename method net/minecraft/client/Minecraft/getRenderViewEntity ()Lnet/minecraft/entity/Entity;[1961,1980]::getRenderViewEntity->func_175606_aa
-Rename field net/minecraft/entity/Entity/posX[1978,1982]::posX->field_70165_t
-Rename method net/minecraft/client/Minecraft/getRenderViewEntity ()Lnet/minecraft/entity/Entity;[1996,2015]::getRenderViewEntity->func_175606_aa
-Rename field net/minecraft/entity/Entity/posY[2013,2017]::posY->field_70163_u
-Rename method net/minecraft/client/Minecraft/getRenderViewEntity ()Lnet/minecraft/entity/Entity;[2031,2050]::getRenderViewEntity->func_175606_aa
-Rename field net/minecraft/entity/Entity/posZ[2048,2052]::posZ->field_70161_v
-Rename method net/minecraft/client/renderer/culling/ICamera/isBoundingBoxInFrustum (Lnet/minecraft/util/math/AxisAlignedBB;)Z[2088,2110]::isBoundingBoxInFrustum->func_78546_a
-Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[2108,2128]::getEntityBoundingBox->func_174813_aQ
-Rename field net/minecraft/entity/Entity/lastTickPosX[2181,2193]::lastTickPosX->field_70142_S
-Rename field net/minecraft/entity/Entity/posX[2205,2209]::posX->field_70165_t
-Rename field net/minecraft/entity/Entity/lastTickPosX[2228,2240]::lastTickPosX->field_70142_S
-Rename method net/minecraft/client/Minecraft/getRenderPartialTicks ()F[2248,2269]::getRenderPartialTicks->func_184121_ak
-Rename field net/minecraft/entity/Entity/lastTickPosY[2294,2306]::lastTickPosY->field_70137_T
-Rename field net/minecraft/entity/Entity/posY[2318,2322]::posY->field_70163_u
-Rename field net/minecraft/entity/Entity/lastTickPosY[2341,2353]::lastTickPosY->field_70137_T
-Rename method net/minecraft/client/Minecraft/getRenderPartialTicks ()F[2361,2382]::getRenderPartialTicks->func_184121_ak
-Rename field net/minecraft/entity/Entity/lastTickPosZ[2407,2419]::lastTickPosZ->field_70136_U
-Rename field net/minecraft/entity/Entity/posZ[2431,2435]::posZ->field_70161_v
-Rename field net/minecraft/entity/Entity/lastTickPosZ[2454,2466]::lastTickPosZ->field_70136_U
-Rename method net/minecraft/client/Minecraft/getRenderPartialTicks ()F[2474,2495]::getRenderPartialTicks->func_184121_ak
-Rename method net/minecraft/util/math/Vec3d/add (DDD)Lnet/minecraft/util/math/Vec3d;[2579,2582]::add->func_72441_c
-Rename field net/minecraft/entity/Entity/height[2602,2608]::height->field_70131_O
-Rename field net/minecraft/util/math/Vec3d/y[2757,2758]::y->field_72448_b
-Rename field net/minecraft/util/math/Vec3d/y[2780,2781]::y->field_72448_b
-Rename field net/minecraft/util/math/Vec3d/x[2873,2874]::x->field_72450_a
-Rename field net/minecraft/util/math/Vec3d/y[2937,2938]::y->field_72448_b
-Rename field net/minecraft/client/Minecraft/renderEngine[2985,2997]::renderEngine->field_71446_o
-Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[2999,3010]::bindTexture->func_110577_a
-Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[3049,3054]::color->func_179131_c
-Rename method net/minecraft/client/renderer/GlStateManager/enableAlpha ()V[3104,3115]::enableAlpha->func_179141_d
-Rename method net/minecraft/client/gui/Gui/drawScaledCustomSizeModalRect (IIFFIIIIFF)V[3138,3167]::drawScaledCustomSizeModalRect->func_152125_a
-Rename method net/minecraft/client/renderer/GlStateManager/disableAlpha ()V[3238,3250]::disableAlpha->func_179118_c
-Import: cookiedragon.eventsystem.Subscriber
-Import: me.darki.konas.event.events.Render2DEvent
-Import: me.darki.konas.module.Module
-Import: me.darki.konas.util.KonasGlobals
-Import: me.darki.konas.util.network.APIUtils
-Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.gui.Gui
-Import: net.minecraft.client.renderer.GlStateManager
-Import: net.minecraft.client.renderer.culling.Frustum
-Import: net.minecraft.client.renderer.culling.ICamera
-Import: net.minecraft.client.renderer.texture.DynamicTexture
-Import: net.minecraft.entity.Entity
-Import: net.minecraft.entity.player.EntityPlayer
-Import: net.minecraft.util.ResourceLocation
-Import: net.minecraft.util.math.Vec3d
-Adding 1 imports
-        me.darki.konas.module.Module.Category
-End  Processing: me/darki/konas/module/modules/render/SantaESP.java
 
 Start Processing: me/darki/konas/module/modules/render/Search.java
 FOUND CONSTR method me/darki/konas/module/modules/render/Search/Search ()V me/darki/konas/module/modules/render/Search
@@ -21473,14 +20647,12 @@ FOUND CONSTR method me/darki/konas/setting/SubBind/SubBind (I)V me/darki/konas/s
 End  Processing: me/darki/konas/setting/SubBind.java
 
 Start Processing: me/darki/konas/util/KonasGlobals.java
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2692,2704]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/gameDir[2707,2714]::gameDir->field_71412_D
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2800,2812]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/gameDir[2815,2822]::gameDir->field_71412_D
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2898,2910]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/gameDir[2913,2920]::gameDir->field_71412_D
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[5502,5514]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/currentScreen[5517,5530]::currentScreen->field_71462_r
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2475,2487]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/gameDir[2490,2497]::gameDir->field_71412_D
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2583,2595]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/gameDir[2598,2605]::gameDir->field_71412_D
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2681,2693]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/gameDir[2696,2703]::gameDir->field_71412_D
 FOUND CONSTR method me/darki/konas/util/KonasGlobals/KonasGlobals ()V me/darki/konas/util/KonasGlobals
 Import: cookiedragon.eventsystem.EventDispatcher
 Import: me.darki.konas.KonasRPC
@@ -21488,13 +20660,11 @@ Import: me.darki.konas.command.CommandManager
 Import: me.darki.konas.config.Config
 Import: me.darki.konas.config.ShutdownHook
 Import: me.darki.konas.event.listener.*
-Import: me.darki.konas.gui.altmanager.GuiAltManager
 Import: me.darki.konas.gui.clickgui.ClickGUI
 Import: me.darki.konas.gui.container.ContainerManager
 Import: me.darki.konas.gui.kgui.KonasGuiScreen
 Import: me.darki.konas.gui.kgui.element.container.MasterContainer
 Import: me.darki.konas.module.ModuleManager
-Import: me.darki.konas.module.modules.client.ClickGUIModule
 Import: me.darki.konas.util.client.TickCalculation
 Import: me.darki.konas.util.client.TickRateUtil
 Import: me.darki.konas.util.interaction.RotationManager
@@ -22173,24 +21343,14 @@ Import: net.minecraft.util.math.MathHelper
 End  Processing: me/darki/konas/util/client/InterpolationHelper.java
 
 Start Processing: me/darki/konas/util/client/LoginUtils.java
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1068,1080]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getProxy ()Ljava/net/Proxy;[1083,1091]::getProxy->func_110437_J
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2270,2282]::getMinecraft->func_71410_x
-New Key: class me/darki/konas/util/network/APIUtils
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2842,2854]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3203,3215]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3390,3402]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[3405,3415]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getProfile ()Lcom/mojang/authlib/GameProfile;[3421,3431]::getProfile->func_148256_e
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3505,3517]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[3520,3530]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getUsername ()Ljava/lang/String;[3536,3547]::getUsername->func_111285_a
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3689,3701]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[3704,3714]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getProfile ()Lcom/mojang/authlib/GameProfile;[3720,3730]::getProfile->func_148256_e
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3775,3787]::getMinecraft->func_71410_x
-Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[3790,3800]::getSession->func_110432_I
-Rename method net/minecraft/util/Session/getToken ()Ljava/lang/String;[3806,3814]::getToken->func_148254_d
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1018,1030]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getProxy ()Ljava/net/Proxy;[1033,1041]::getProxy->func_110437_J
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1405,1417]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[1420,1430]::getSession->func_110432_I
+Rename method net/minecraft/util/Session/getProfile ()Lcom/mojang/authlib/GameProfile;[1436,1446]::getProfile->func_148256_e
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1491,1503]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getSession ()Lnet/minecraft/util/Session;[1506,1516]::getSession->func_110432_I
+Rename method net/minecraft/util/Session/getToken ()Ljava/lang/String;[1522,1530]::getToken->func_148254_d
 Import: com.google.common.base.Charsets
 Import: com.mojang.authlib.Agent
 Import: com.mojang.authlib.GameProfile
@@ -22199,7 +21359,6 @@ Import: com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService
 Import: com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService
 Import: com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication
 Import: com.mojang.util.UUIDTypeAdapter
-Import: me.darki.konas.gui.altmanager.AltSummary
 Import: me.darki.konas.mixin.mixins.IMinecraft
 Import: me.darki.konas.util.network.APIUtils
 Import: net.minecraft.client.Minecraft
@@ -23558,11 +22717,6 @@ New Key: class java/util/AbstractMap
 New Key: class java/util/AbstractMap
 New Key: class java/util/AbstractMap
 FOUND CONSTR method me/darki/konas/util/network/APIUtils/LoginCombo/LoginCombo (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V me/darki/konas/util/network/APIUtils/LoginCombo
-New Key: class java/util/AbstractMap
-New Key: class java/util/AbstractMap
-New Key: class java/util/AbstractMap
-New Key: class java/util/AbstractMap
-New Key: class java/util/AbstractMap
 Import: com.google.common.collect.Maps
 Import: com.google.gson.*
 Import: kotlin.Pair
@@ -23582,8 +22736,6 @@ Import: java.util.regex.Pattern
 End  Processing: me/darki/konas/util/network/APIUtils.java
 
 Start Processing: me/darki/konas/util/network/Requester.java
-New Key: class java/util/AbstractMap
-New Key: class java/util/AbstractMap
 Import: java.io.BufferedReader
 Import: java.io.IOException
 Import: java.io.InputStream

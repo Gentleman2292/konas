@@ -62,6 +62,7 @@
     "MixinGuiBossOverlay",
     "MixinGuiChat",
     "MixinGuiIngame",
+    "MixinGuiMainMenu",
     "MixinGuiNewChat",
     "MixinGuiPlayerTabOverlay",
     "MixinGuiScreen",

@@ -168,10 +168,6 @@
     "me/darki/konas/mixin/mixins/ISPacketChat": {
       "chatComponent": "field_148919_a:Lnet/minecraft/util/text/ITextComponent;"
     },
-    "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-      "actionPerformed": "Lnet/minecraft/client/gui/GuiMainMenu;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
-      "addSingleplayerMultiplayerButtons": "Lnet/minecraft/client/gui/GuiMainMenu;func_73969_a(II)V"
-    },
     "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
       "decode": "Lnet/minecraft/network/NettyCompressionDecoder;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
     },
@@ -265,8 +261,6 @@
       "yaw": "field_149476_e:F"
     },
     "me/darki/konas/mixin/mixins/MixinRenderManager": {
-      "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175154_l()Ljava/lang/String;",
-      "getEntityRenderObject": "Lnet/minecraft/client/renderer/entity/RenderManager;func_78713_a(Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render;",
       "renderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_188391_a(Lnet/minecraft/entity/Entity;DDDFFZ)V"
     },
     "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {
@@ -581,10 +575,6 @@
       "me/darki/konas/mixin/mixins/ISPacketChat": {
         "chatComponent": "a:Lhh;"
       },
-      "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-        "actionPerformed": "Lblr;a(Lbja;)V",
-        "addSingleplayerMultiplayerButtons": "Lblr;b(II)V"
-      },
       "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
         "decode": "Lgu;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
       },
@@ -678,8 +668,6 @@
         "yaw": "d:F"
       },
       "me/darki/konas/mixin/mixins/MixinRenderManager": {
-        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lbua;t()Ljava/lang/String;",
-        "getEntityRenderObject": "Lbzf;a(Lvg;)Lbzg;",
         "renderEntity": "Lbzf;a(Lvg;DDDFFZ)V"
       },
       "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {
@@ -993,10 +981,6 @@
       "me/darki/konas/mixin/mixins/ISPacketChat": {
         "chatComponent": "field_148919_a:Lnet/minecraft/util/text/ITextComponent;"
       },
-      "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-        "actionPerformed": "Lnet/minecraft/client/gui/GuiMainMenu;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
-        "addSingleplayerMultiplayerButtons": "Lnet/minecraft/client/gui/GuiMainMenu;func_73969_a(II)V"
-      },
       "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
         "decode": "Lnet/minecraft/network/NettyCompressionDecoder;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
       },
@@ -1090,8 +1074,6 @@
         "yaw": "field_149476_e:F"
       },
       "me/darki/konas/mixin/mixins/MixinRenderManager": {
-        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175154_l()Ljava/lang/String;",
-        "getEntityRenderObject": "Lnet/minecraft/client/renderer/entity/RenderManager;func_78713_a(Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render;",
         "renderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_188391_a(Lnet/minecraft/entity/Entity;DDDFFZ)V"
       },
       "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {

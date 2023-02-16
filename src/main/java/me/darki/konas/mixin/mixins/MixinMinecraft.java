@@ -50,15 +50,6 @@ public class MixinMinecraft {
         EventDispatcher.Companion.dispatch(event);
     }
 
-    @Redirect(method = "runGameLoop", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/toasts/GuiToast;drawToast(Lnet/minecraft/client/gui/ScaledResolution;)V"))
-    public void onRenderToast(GuiToast guiToast, ScaledResolution resolution) {
-        if (ModuleManager.getModuleByClass(NoRender.class).isEnabled() && NoRender.toast.getValue()) {
-            return;
-        }
-        guiToast.drawToast(resolution);
-    }
-
-
     @Inject(method = "runTickKeyboard", at = @At(value = "INVOKE", target = "Lnet/minecraftforge/fml/common/FMLCommonHandler;fireKeyInput()V"))
     public void keyInject(CallbackInfo ci) {
         if(Keyboard.getEventKeyState()) {

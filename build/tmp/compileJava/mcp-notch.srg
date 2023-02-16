@@ -27,7 +27,6 @@ FD: me/darki/konas/mixin/mixins/MixinFontRenderer/posY me/darki/konas/mixin/mixi
 FD: me/darki/konas/mixin/mixins/MixinFontRenderer/fontRandom me/darki/konas/mixin/mixins/MixinFontRenderer/b
 FD: me/darki/konas/mixin/mixins/MixinFontRenderer/colorCode me/darki/konas/mixin/mixins/MixinFontRenderer/f
 FD: me/darki/konas/mixin/mixins/MixinGuiChat/inputField me/darki/konas/mixin/mixins/MixinGuiChat/a
-FD: me/darki/konas/mixin/mixins/MixinGuiMainMenu/realmsButton me/darki/konas/mixin/mixins/MixinGuiMainMenu/K
 FD: me/darki/konas/mixin/mixins/MixinKeyBinding/pressed me/darki/konas/mixin/mixins/MixinKeyBinding/i
 FD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/blockHitDelay me/darki/konas/mixin/mixins/MixinPlayerControllerMP/g
 FD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/curBlockDamageMP me/darki/konas/mixin/mixins/MixinPlayerControllerMP/e

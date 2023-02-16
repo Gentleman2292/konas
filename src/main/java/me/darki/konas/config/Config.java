@@ -3,6 +3,8 @@ package me.darki.konas.config;
 import com.google.gson.*;
 import me.darki.konas.command.Command;
 import me.darki.konas.command.commands.FontCommand;
+import me.darki.konas.gui.altmanager.AltSummary;
+import me.darki.konas.gui.altmanager.GuiListAltAccountEntry;
 import me.darki.konas.gui.clickgui.component.ColorSettingComponent;
 import me.darki.konas.gui.clickgui.component.ContainerComponent;
 import me.darki.konas.gui.clickgui.component.ModuleComponent;
@@ -52,6 +54,8 @@ public class Config {
     public static final File CONFIG = new File(KONAS_FOLDER, "config.json");
     public static final File CONFIGS = new File(KONAS_FOLDER, "configs");
 
+    public static final File ACCOUNTS = new File(KONAS_FOLDER, "accounts.json");
+
     public static File currentConfig = null;
 
     @Deprecated public static final File CONFIG_OLD = new File(mc.gameDir + File.separator + "KonasConfig.json");
@@ -73,9 +77,10 @@ public class Config {
 
     public static void load(File config, boolean loadAccounts) {
 
-        if (!config.exists()) save(config);
+        if (!config.exists() || !ACCOUNTS.exists()) save(config);
 
         RPC.firstRun = true;
+        KonasChat.firstRun = true;
 
         // Read Config
         try {
@@ -281,7 +286,13 @@ public class Config {
         loadAnnouncerFiles();
         loadExtraChatFiles();
         loadBlockAuraFiles();
+        KonasChat.firstRun = false;
         RPC.firstRun = false;
+        // Read Accounts
+        if (loadAccounts) {
+            loadAccounts();
+        }
+
     }
 
     public static JsonArray loadJsonArray(File config) {
@@ -499,6 +510,10 @@ public class Config {
         } catch (IOException e) {
             System.err.println("Cant write to config file!");
         }
+
+        saveAccounts();
+
+
     }
 
     public static void writeJsonArrayToFile(JsonArray array, File file) {
@@ -509,6 +524,85 @@ public class Config {
             writer.close();
         } catch (Exception e) {
             System.err.println("Cant write to config file!");
+        }
+
+    }
+
+    public static void loadAccounts() {
+
+        try {
+            if (!ACCOUNTS.exists()) {
+                saveAccounts();
+                return;
+            }
+            FileReader reader = new FileReader(ACCOUNTS);
+            JsonParser parser = new JsonParser();
+
+            JsonArray array = null;
+            try {
+                array = (JsonArray) parser.parse(reader);
+            } catch (ClassCastException e) {
+                saveAccounts();
+            }
+
+            if (array != null && !array.isJsonNull()) {
+                for (JsonElement element : array) {
+                    try {
+                        JsonObject altObj = element.getAsJsonObject();
+                        String name = altObj.getAsJsonPrimitive("Name").getAsString();
+                        String email = altObj.getAsJsonPrimitive("E-Mail").getAsString();
+                        String password = altObj.getAsJsonPrimitive("Password").getAsString();
+                        String uuid = altObj.getAsJsonPrimitive("UUID").getAsString();
+                        String token = altObj.getAsJsonPrimitive("Token").getAsString();
+                        boolean microsoft = altObj.getAsJsonPrimitive("Microsoft").getAsBoolean();
+                        long lastLogin = altObj.getAsJsonPrimitive("Last-Login").getAsLong();
+
+                        AltSummary summary = new AltSummary(email, password, password.equals(""), microsoft);
+                        summary.setName(name);
+                        summary.setLastTimeLoggedIn(lastLogin);
+                        summary.setUuid(uuid);
+                        summary.setToken(token);
+                        GuiListAltAccountEntry entry = new GuiListAltAccountEntry(summary);
+                        KonasGlobals.INSTANCE.altManager.loadedEntries.add(entry);
+                    } catch (NullPointerException npe) {
+                        System.err.println("Failed to load account");
+                    }
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error loading accounts");
+        }
+    }
+
+    public static void saveAccounts() {
+
+        try {
+            if (!ACCOUNTS.exists()) ACCOUNTS.createNewFile();
+
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+            FileWriter writer = new FileWriter(ACCOUNTS);
+            JsonArray array = new JsonArray();
+
+            for (GuiListAltAccountEntry entry : KonasGlobals.INSTANCE.altManager.loadedEntries) {
+                AltSummary summary = entry.altSummary;
+                JsonObject attribs = new JsonObject();
+                attribs.addProperty("Name", summary.getName());
+                attribs.addProperty("E-Mail", summary.getEmail());
+                attribs.addProperty("Password", summary.getPassword());
+                attribs.addProperty("UUID", summary.getUuid());
+                attribs.addProperty("Token", summary.getToken());
+                attribs.addProperty("Last-Login", summary.getLastTimeLoggedIn());
+                attribs.addProperty("Microsoft", summary.isMicrosoft());
+                array.add(attribs);
+            }
+
+
+            gson.toJson(array, writer);
+            writer.close();
+
+        } catch (IOException e) {
+            System.err.println("Cant write to account file");
         }
 
     }

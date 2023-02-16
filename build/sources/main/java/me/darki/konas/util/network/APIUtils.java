@@ -119,6 +119,32 @@ public class APIUtils {
         return 0;
     }
 
+    public static String[] getServerStates() {
+        String[] responses = new String[3];
+        final String url = "https://status.mojang.com/check";
+        try {
+            final String nameJson = Requester.toString(new URL(url));
+            if (nameJson != null && nameJson.length() > 0) {
+                JsonArray array = (JsonArray) jsonParser.parse(nameJson);
+                for (JsonElement element : array) {
+                    JsonObject obj = element.getAsJsonObject();
+                    if (obj.get("account.mojang.com") != null) {
+                        responses[0] = obj.get("account.mojang.com").getAsString();
+                    }
+                    if (obj.get("authserver.mojang.com") != null) {
+                        responses[1] = obj.get("authserver.mojang.com").getAsString();
+                    }
+                    if (obj.get("sessionserver.mojang.com") != null) {
+                        responses[2] = obj.get("sessionserver.mojang.com").getAsString();
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return responses;
+    }
+
     public static Pair<String, TextFormatting> parseResponse(String response) {
         String parsedResponse;
         TextFormatting parsedColor;
@@ -168,6 +194,16 @@ public class APIUtils {
         return null;
     }
 
+    public static DynamicTexture getCapeDynamicTexture(String type) {
+        try {
+            URL url = new URL("https://capes.konasclient.com/capes/" + type + ".png");
+            InputStream stream = Requester.toInputStream(url);
+            return new DynamicTexture(ImageIO.read(stream));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     public static LoginCombo sendMicrosoftLoginRequest(String username, String password) {
         try {
@@ -217,6 +253,57 @@ public class APIUtils {
         }
     }
 
+    public static AbstractMap.SimpleEntry<String, String> getUsernameAndUUID(String token) {
+        try {
+            URL url = new URL("https://api.minecraftservices.com/minecraft/profile");
+            String body = Requester.toStringWithHeader(url, new AbstractMap.SimpleEntry<>("Authorization", "Bearer " + token));
+            JsonObject jsonBody = new JsonParser().parse(body).getAsJsonObject();
+            return new AbstractMap.SimpleEntry<>(jsonBody.getAsJsonPrimitive("name").getAsString(), jsonBody.getAsJsonPrimitive("id").getAsString());
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public static HashMap<String, String> getCapeTypes() {
+        HashMap<String, String> capes = new HashMap<>();
+        try {
+            Thread thread = new Thread(() -> {
+                try {
+                    new JsonParser().parse(Requester.toStringWithHeader(new URL("https://capes.konasclient.com"), new AbstractMap.SimpleEntry<>("KONAS", getTruth())))
+                            .getAsJsonArray().forEach(obj -> {
+                        capes.put(obj.getAsJsonObject().getAsJsonPrimitive("Name").getAsString().toUpperCase(),
+                                obj.getAsJsonObject().getAsJsonPrimitive("Type").getAsString());
+                    });
+                } catch (IOException e) {
+                    System.err.println("Error fetching capes");
+                }
+            });
+            thread.start();
+            thread.join();
+        } catch (Exception e) {
+            System.err.println("Error fetching capes");
+        }
+        return capes;
+    }
+
+    public static String getTruth() {
+        AtomicReference<String> truth = new AtomicReference<>();
+        try {
+            Thread thread = new Thread(() -> {
+                try {
+                    truth.set(new JsonParser().parse(Requester.toStringWithHeader(new URL("https://truth.konasclient.com"), new AbstractMap.SimpleEntry<>("KONAS", "0c5c77308be49e7cc4f86d2aff08e7cd9c3e1cf6195761c1b27ae472decc1d23bd4a518339a91c04")))
+                            .getAsJsonObject().getAsJsonPrimitive("key").getAsString());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            thread.start();
+            thread.join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return truth.get();
+    }
 
     public static HashMap<String, Boolean> cachedSkinTypes = new HashMap<>();
 

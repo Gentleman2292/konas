@@ -1,8 +1,8 @@
-Unsupposrted library path: C:\Users\brrro\Desktop\Projects\konas\build\classes\java\api
-Unsupposrted library path: C:\Users\brrro\Desktop\Projects\konas\build\classes\kotlin\api
-Unsupposrted library path: C:\Users\brrro\Desktop\Projects\konas\build\resources\api
+Unsupposrted library path: C:\Users\kiril\Desktop\konas\build\classes\java\api
+Unsupposrted library path: C:\Users\kiril\Desktop\konas\build\classes\kotlin\api
+Unsupposrted library path: C:\Users\kiril\Desktop\konas\build\resources\api
 Symbol range map extraction starting
-Processing 872 files
+Processing 883 files
 startProcessing "com/viaversion/viafabric/ViaFabric.java" md5: 1baf33fc19c6301371e84fa657719d58
 endProcessing "com/viaversion/viafabric/ViaFabric.java"
 
@@ -207,7 +207,7 @@ endProcessing "me/darki/konas/command/commands/XRayCommand.java"
 startProcessing "me/darki/konas/command/commands/YawCommand.java" md5: 1e1008f5acf6a22c0b21cc7b74bf5d6e
 endProcessing "me/darki/konas/command/commands/YawCommand.java"
 
-startProcessing "me/darki/konas/config/Config.java" md5: 9b4224fbfced5e1183a28550a2b8b558
+startProcessing "me/darki/konas/config/Config.java" md5: 994eab9bb21d26249e5a1eea5a63520e
 endProcessing "me/darki/konas/config/Config.java"
 
 startProcessing "me/darki/konas/config/ShutdownHook.java" md5: 1d4f295c6df13967300a4b7d57e07ade
@@ -560,6 +560,27 @@ endProcessing "me/darki/konas/event/listener/TargetManager.java"
 
 startProcessing "me/darki/konas/gui/TabGUI.java" md5: d4b51ef2a05113ed3a527bfa74ca4d68
 endProcessing "me/darki/konas/gui/TabGUI.java"
+
+startProcessing "me/darki/konas/gui/altmanager/AltSummary.java" md5: 35b008023a7f004e41664207d0bf5886
+endProcessing "me/darki/konas/gui/altmanager/AltSummary.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiAddAccount.java" md5: 13745efd30b9c4329543e41af741e742
+endProcessing "me/darki/konas/gui/altmanager/GuiAddAccount.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiAltManager.java" md5: 6c796e93b365bfc8f3c5b2e1c976a071
+endProcessing "me/darki/konas/gui/altmanager/GuiAltManager.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiDirectLogin.java" md5: 56e1b3da5fe6beed05054fddbf352463
+endProcessing "me/darki/konas/gui/altmanager/GuiDirectLogin.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiListAltAccountEntry.java" md5: 39b6ffd94552c763bc1049060a164f7c
+endProcessing "me/darki/konas/gui/altmanager/GuiListAltAccountEntry.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiListAltAccounts.java" md5: 319ced6187105ba80ebd6dfedff0fc44
+endProcessing "me/darki/konas/gui/altmanager/GuiListAltAccounts.java"
+
+startProcessing "me/darki/konas/gui/altmanager/GuiPasswordField.java" md5: ced3ef1e716a19ae9a1f738947f4fcf1
+endProcessing "me/darki/konas/gui/altmanager/GuiPasswordField.java"
 
 startProcessing "me/darki/konas/gui/beacon/CustomGuiBeacon.java" md5: 2ba0e6637a9d5104dad0cb6ae8d32444
 endProcessing "me/darki/konas/gui/beacon/CustomGuiBeacon.java"
@@ -937,6 +958,9 @@ endProcessing "me/darki/konas/mixin/mixins/MixinGuiChat.java"
 startProcessing "me/darki/konas/mixin/mixins/MixinGuiIngame.java" md5: 47c4f8b56d780a1470ba4e0a53542420
 endProcessing "me/darki/konas/mixin/mixins/MixinGuiIngame.java"
 
+startProcessing "me/darki/konas/mixin/mixins/MixinGuiMainMenu.java" md5: ad65bb1cb5e38cb8f0196d42d7e086a5
+endProcessing "me/darki/konas/mixin/mixins/MixinGuiMainMenu.java"
+
 startProcessing "me/darki/konas/mixin/mixins/MixinGuiMultiplayer.java" md5: 5f288251079741540a36e1ad5c5d3e79
 endProcessing "me/darki/konas/mixin/mixins/MixinGuiMultiplayer.java"
 
@@ -1006,7 +1030,7 @@ endProcessing "me/darki/konas/mixin/mixins/MixinRenderItem.java"
 startProcessing "me/darki/konas/mixin/mixins/MixinRenderLivingBase.java" md5: 1b633c1c6f760b21fcfa14f952bdfb47
 endProcessing "me/darki/konas/mixin/mixins/MixinRenderLivingBase.java"
 
-startProcessing "me/darki/konas/mixin/mixins/MixinRenderManager.java" md5: a6e812554f20cf7002f716214b247708
+startProcessing "me/darki/konas/mixin/mixins/MixinRenderManager.java" md5: 239622255f66b8cc61483d7ae36e55f0
 endProcessing "me/darki/konas/mixin/mixins/MixinRenderManager.java"
 
 startProcessing "me/darki/konas/mixin/mixins/MixinRenderPlayer.java" md5: 2741722fd16c264fdeb5034463d7eda6
@@ -1243,7 +1267,7 @@ endProcessing "me/darki/konas/module/modules/misc/BlockAura.java"
 startProcessing "me/darki/konas/module/modules/misc/ChatAppend.java" md5: ed3cbba37d2ed762d0a44edac001725d
 endProcessing "me/darki/konas/module/modules/misc/ChatAppend.java"
 
-startProcessing "me/darki/konas/module/modules/misc/ExtraChat.java" md5: d04c1ba82599a79e22564515c78045a3
+startProcessing "me/darki/konas/module/modules/misc/ExtraChat.java" md5: cad341bbf5d5537ba084ad5ac520a064
 endProcessing "me/darki/konas/module/modules/misc/ExtraChat.java"
 
 startProcessing "me/darki/konas/module/modules/misc/FakePlayer.java" md5: b63fde1c56a644e6d14695331a0aacaf
@@ -1251,6 +1275,9 @@ endProcessing "me/darki/konas/module/modules/misc/FakePlayer.java"
 
 startProcessing "me/darki/konas/module/modules/misc/HoleBreakAlert.java" md5: 73248367b8f404804b7faa21a7bc30fe
 endProcessing "me/darki/konas/module/modules/misc/HoleBreakAlert.java"
+
+startProcessing "me/darki/konas/module/modules/misc/KonasChat.java" md5: 41eb316926de1adf706f6ec71939af6b
+endProcessing "me/darki/konas/module/modules/misc/KonasChat.java"
 
 startProcessing "me/darki/konas/module/modules/misc/MiddleClick.java" md5: a29739db62462236ac324f8c83d4b0d9
 endProcessing "me/darki/konas/module/modules/misc/MiddleClick.java"
@@ -1423,6 +1450,9 @@ endProcessing "me/darki/konas/module/modules/render/Breadcrumbs.java"
 startProcessing "me/darki/konas/module/modules/render/CameraClip.java" md5: eef535d9d70d7562af6c656940d8ae9f
 endProcessing "me/darki/konas/module/modules/render/CameraClip.java"
 
+startProcessing "me/darki/konas/module/modules/render/Capes.java" md5: f9698ea2390ec7b2d25efccd013364a1
+endProcessing "me/darki/konas/module/modules/render/Capes.java"
+
 startProcessing "me/darki/konas/module/modules/render/Chams.java" md5: 70bfe52c168fc2daae29e4c28afdb732
 endProcessing "me/darki/konas/module/modules/render/Chams.java"
 
@@ -1472,6 +1502,9 @@ endProcessing "me/darki/konas/module/modules/render/OldAnimations.java"
 
 startProcessing "me/darki/konas/module/modules/render/PacketRender.java" md5: 82cd90d05494e0ef23d21e675f0f646e
 endProcessing "me/darki/konas/module/modules/render/PacketRender.java"
+
+startProcessing "me/darki/konas/module/modules/render/SantaESP.java" md5: 0e27718c0a5eb9625c25e6a4440ba7f0
+endProcessing "me/darki/konas/module/modules/render/SantaESP.java"
 
 startProcessing "me/darki/konas/module/modules/render/Search.java" md5: 6625003d5ecde930a36d9c6fbc6ab356
 endProcessing "me/darki/konas/module/modules/render/Search.java"
@@ -1536,7 +1569,7 @@ endProcessing "me/darki/konas/setting/Setting.java"
 startProcessing "me/darki/konas/setting/SubBind.java" md5: 1e5e48cd2abe79b52274cfce0d5d7d4a
 endProcessing "me/darki/konas/setting/SubBind.java"
 
-startProcessing "me/darki/konas/util/KonasGlobals.java" md5: c1533bdb227d03e49a4de60126a2b0de
+startProcessing "me/darki/konas/util/KonasGlobals.java" md5: 5060cf316eedabdd859ccf9ee1d9a846
 endProcessing "me/darki/konas/util/KonasGlobals.java"
 
 startProcessing "me/darki/konas/util/Logger.java" md5: 953ff93af70d2015138fdc66a3ac5153
@@ -1554,7 +1587,7 @@ endProcessing "me/darki/konas/util/client/FakePlayerManager.java"
 startProcessing "me/darki/konas/util/client/InterpolationHelper.java" md5: 46c1e19586a2a6e3b648d7ed3e67afb8
 endProcessing "me/darki/konas/util/client/InterpolationHelper.java"
 
-startProcessing "me/darki/konas/util/client/LoginUtils.java" md5: 4009d16f8a07d311671f858e2ef7f85f
+startProcessing "me/darki/konas/util/client/LoginUtils.java" md5: 4eb42cafe4b838a7ae25af1daf4337fa
 endProcessing "me/darki/konas/util/client/LoginUtils.java"
 
 startProcessing "me/darki/konas/util/client/PlayerUtils.java" md5: d8ea7180f9bd1e40e5c7a1e01de0fdfb
@@ -1620,10 +1653,10 @@ endProcessing "me/darki/konas/util/math/VectorUtils.java"
 startProcessing "me/darki/konas/util/mute/MuteManager.java" md5: 1909ce1ea3bdee53c1063cc66dc3ae15
 endProcessing "me/darki/konas/util/mute/MuteManager.java"
 
-startProcessing "me/darki/konas/util/network/APIUtils.java" md5: 00d51eb3173a1aa923ba216fd7fb1b03
+startProcessing "me/darki/konas/util/network/APIUtils.java" md5: 31fff575864ba4efd8770f4457e50111
 endProcessing "me/darki/konas/util/network/APIUtils.java"
 
-startProcessing "me/darki/konas/util/network/Requester.java" md5: c0fbda3fa28016d005469a40aafeb7b4
+startProcessing "me/darki/konas/util/network/Requester.java" md5: 1821d92cdbdaffad4438e9b425933584
 endProcessing "me/darki/konas/util/network/Requester.java"
 
 startProcessing "me/darki/konas/util/pathfinding/PathManager.java" md5: 340a16e0daa9747d6198e2259f87e630

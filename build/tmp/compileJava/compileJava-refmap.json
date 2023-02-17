@@ -17,9 +17,6 @@
     "me/darki/konas/mixin/mixins/ICPacketChatMessage": {
       "message": "field_149440_a:Ljava/lang/String;"
     },
-    "me/darki/konas/mixin/mixins/MixinNetworkManagerChInit": {
-      "net.minecraft.network.NetworkManager$5": "net/minecraft/network/NetworkManager$5"
-    },
     "me/darki/konas/mixin/mixins/MixinEntityLivingBase": {
       "handleJumpLava": "Lnet/minecraft/entity/EntityLivingBase;func_180466_bG()V",
       "handleJumpWater": "Lnet/minecraft/entity/EntityLivingBase;func_70629_bd()V",
@@ -70,9 +67,6 @@
     },
     "me/darki/konas/mixin/mixins/MixinGuiBossOverlay": {
       "renderBossHealth": "Lnet/minecraft/client/gui/GuiBossOverlay;func_184051_a()V"
-    },
-    "me/darki/konas/mixin/mixins/MixinGuiMultiplayer": {
-      "createButtons": "Lnet/minecraft/client/gui/GuiMultiplayer;func_146794_g()V"
     },
     "me/darki/konas/mixin/mixins/MixinKeyBinding": {
       "isKeyDown": "Lnet/minecraft/client/settings/KeyBinding;func_151470_d()Z"
@@ -168,10 +162,6 @@
     "me/darki/konas/mixin/mixins/ISPacketChat": {
       "chatComponent": "field_148919_a:Lnet/minecraft/util/text/ITextComponent;"
     },
-    "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-      "actionPerformed": "Lnet/minecraft/client/gui/GuiMainMenu;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
-      "addSingleplayerMultiplayerButtons": "Lnet/minecraft/client/gui/GuiMainMenu;func_73969_a(II)V"
-    },
     "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
       "decode": "Lnet/minecraft/network/NettyCompressionDecoder;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
     },
@@ -208,7 +198,6 @@
     },
     "me/darki/konas/mixin/mixins/MixinNetworkManager": {
       "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
-      "setCompressionThreshold": "Lnet/minecraft/network/NetworkManager;func_179289_a(I)V",
       "exceptionCaught": "Lnet/minecraft/network/NetworkManager;exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V",
       "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
     },
@@ -265,8 +254,6 @@
       "yaw": "field_149476_e:F"
     },
     "me/darki/konas/mixin/mixins/MixinRenderManager": {
-      "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175154_l()Ljava/lang/String;",
-      "getEntityRenderObject": "Lnet/minecraft/client/renderer/entity/RenderManager;func_78713_a(Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render;",
       "renderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_188391_a(Lnet/minecraft/entity/Entity;DDDFFZ)V"
     },
     "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {
@@ -329,7 +316,6 @@
       "runGameLoop": "Lnet/minecraft/client/Minecraft;func_71411_J()V",
       "runTickKeyboard": "Lnet/minecraft/client/Minecraft;func_184118_az()V",
       "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getIsHittingBlock()Z": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_181040_m()Z",
-      "Lnet/minecraft/client/gui/toasts/GuiToast;drawToast(Lnet/minecraft/client/gui/ScaledResolution;)V": "Lnet/minecraft/client/gui/toasts/GuiToast;func_191783_a(Lnet/minecraft/client/gui/ScaledResolution;)V",
       "runTickMouse": "Lnet/minecraft/client/Minecraft;func_184124_aB()V",
       "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V",
       "Lnet/minecraft/client/multiplayer/PlayerControllerMP;resetBlockRemoving()V": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78767_c()V",
@@ -430,9 +416,6 @@
       "me/darki/konas/mixin/mixins/ICPacketChatMessage": {
         "message": "a:Ljava/lang/String;"
       },
-      "me/darki/konas/mixin/mixins/MixinNetworkManagerChInit": {
-        "net.minecraft.network.NetworkManager$5": "gw$5"
-      },
       "me/darki/konas/mixin/mixins/MixinEntityLivingBase": {
         "handleJumpLava": "Lvp;cw()V",
         "handleJumpWater": "Lvp;cv()V",
@@ -483,9 +466,6 @@
       },
       "me/darki/konas/mixin/mixins/MixinGuiBossOverlay": {
         "renderBossHealth": "Lbiz;a()V"
-      },
-      "me/darki/konas/mixin/mixins/MixinGuiMultiplayer": {
-        "createButtons": "Lbnf;a()V"
       },
       "me/darki/konas/mixin/mixins/MixinKeyBinding": {
         "isKeyDown": "Lbhy;e()Z"
@@ -581,10 +561,6 @@
       "me/darki/konas/mixin/mixins/ISPacketChat": {
         "chatComponent": "a:Lhh;"
       },
-      "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-        "actionPerformed": "Lblr;a(Lbja;)V",
-        "addSingleplayerMultiplayerButtons": "Lblr;b(II)V"
-      },
       "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
         "decode": "Lgu;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
       },
@@ -621,7 +597,6 @@
       },
       "me/darki/konas/mixin/mixins/MixinNetworkManager": {
         "sendPacket(Lnet/minecraft/network/Packet;)V": "Lgw;a(Lht;)V",
-        "setCompressionThreshold": "Lgw;a(I)V",
         "exceptionCaught": "Lgw;exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V",
         "channelRead0": "Lgw;a(Lio/netty/channel/ChannelHandlerContext;Lht;)V"
       },
@@ -678,8 +653,6 @@
         "yaw": "d:F"
       },
       "me/darki/konas/mixin/mixins/MixinRenderManager": {
-        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lbua;t()Ljava/lang/String;",
-        "getEntityRenderObject": "Lbzf;a(Lvg;)Lbzg;",
         "renderEntity": "Lbzf;a(Lvg;DDDFFZ)V"
       },
       "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {
@@ -742,7 +715,6 @@
         "runGameLoop": "Lbib;az()V",
         "runTickKeyboard": "Lbib;aD()V",
         "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getIsHittingBlock()Z": "Lbsa;m()Z",
-        "Lnet/minecraft/client/gui/toasts/GuiToast;drawToast(Lnet/minecraft/client/gui/ScaledResolution;)V": "Lbkc;a(Lbit;)V",
         "runTickMouse": "Lbib;aG()V",
         "rightClickMouse": "Lbib;aB()V",
         "Lnet/minecraft/client/multiplayer/PlayerControllerMP;resetBlockRemoving()V": "Lbsa;c()V",
@@ -842,9 +814,6 @@
       "me/darki/konas/mixin/mixins/ICPacketChatMessage": {
         "message": "field_149440_a:Ljava/lang/String;"
       },
-      "me/darki/konas/mixin/mixins/MixinNetworkManagerChInit": {
-        "net.minecraft.network.NetworkManager$5": "net/minecraft/network/NetworkManager$5"
-      },
       "me/darki/konas/mixin/mixins/MixinEntityLivingBase": {
         "handleJumpLava": "Lnet/minecraft/entity/EntityLivingBase;func_180466_bG()V",
         "handleJumpWater": "Lnet/minecraft/entity/EntityLivingBase;func_70629_bd()V",
@@ -895,9 +864,6 @@
       },
       "me/darki/konas/mixin/mixins/MixinGuiBossOverlay": {
         "renderBossHealth": "Lnet/minecraft/client/gui/GuiBossOverlay;func_184051_a()V"
-      },
-      "me/darki/konas/mixin/mixins/MixinGuiMultiplayer": {
-        "createButtons": "Lnet/minecraft/client/gui/GuiMultiplayer;func_146794_g()V"
       },
       "me/darki/konas/mixin/mixins/MixinKeyBinding": {
         "isKeyDown": "Lnet/minecraft/client/settings/KeyBinding;func_151470_d()Z"
@@ -993,10 +959,6 @@
       "me/darki/konas/mixin/mixins/ISPacketChat": {
         "chatComponent": "field_148919_a:Lnet/minecraft/util/text/ITextComponent;"
       },
-      "me/darki/konas/mixin/mixins/MixinGuiMainMenu": {
-        "actionPerformed": "Lnet/minecraft/client/gui/GuiMainMenu;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V",
-        "addSingleplayerMultiplayerButtons": "Lnet/minecraft/client/gui/GuiMainMenu;func_73969_a(II)V"
-      },
       "me/darki/konas/mixin/mixins/MixinNettyCompressionDecoder": {
         "decode": "Lnet/minecraft/network/NettyCompressionDecoder;decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V"
       },
@@ -1033,7 +995,6 @@
       },
       "me/darki/konas/mixin/mixins/MixinNetworkManager": {
         "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
-        "setCompressionThreshold": "Lnet/minecraft/network/NetworkManager;func_179289_a(I)V",
         "exceptionCaught": "Lnet/minecraft/network/NetworkManager;exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V",
         "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
       },
@@ -1090,8 +1051,6 @@
         "yaw": "field_149476_e:F"
       },
       "me/darki/konas/mixin/mixins/MixinRenderManager": {
-        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSkinType()Ljava/lang/String;": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_175154_l()Ljava/lang/String;",
-        "getEntityRenderObject": "Lnet/minecraft/client/renderer/entity/RenderManager;func_78713_a(Lnet/minecraft/entity/Entity;)Lnet/minecraft/client/renderer/entity/Render;",
         "renderEntity": "Lnet/minecraft/client/renderer/entity/RenderManager;func_188391_a(Lnet/minecraft/entity/Entity;DDDFFZ)V"
       },
       "me/darki/konas/mixin/mixins/MixinEntityPlayerSP": {
@@ -1154,7 +1113,6 @@
         "runGameLoop": "Lnet/minecraft/client/Minecraft;func_71411_J()V",
         "runTickKeyboard": "Lnet/minecraft/client/Minecraft;func_184118_az()V",
         "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getIsHittingBlock()Z": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_181040_m()Z",
-        "Lnet/minecraft/client/gui/toasts/GuiToast;drawToast(Lnet/minecraft/client/gui/ScaledResolution;)V": "Lnet/minecraft/client/gui/toasts/GuiToast;func_191783_a(Lnet/minecraft/client/gui/ScaledResolution;)V",
         "runTickMouse": "Lnet/minecraft/client/Minecraft;func_184124_aB()V",
         "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V",
         "Lnet/minecraft/client/multiplayer/PlayerControllerMP;resetBlockRemoving()V": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_78767_c()V",

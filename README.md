@@ -1,5 +1,5 @@
 # konas
-I deleted everything that connected to their Auth servers and fixed crashes
+I deleted everything that connected to their auth servers and fixed crashes
 
 
 # Backup link
